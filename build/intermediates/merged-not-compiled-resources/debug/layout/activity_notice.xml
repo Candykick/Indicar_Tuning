@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <LinearLayout
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/activity_notice_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_text_toolbar"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_notice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:background="@null"/>
+
+    </LinearLayout>
+         

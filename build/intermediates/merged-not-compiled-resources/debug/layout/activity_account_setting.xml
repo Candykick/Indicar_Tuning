@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                           
+                                                                                     
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/activity_account_setting_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/layout_text_toolbar"/>
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_main"
+                    android:text="@string/editNameTitle" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_main"
+                    android:singleLine="true"
+                    android:hint="@string/editNameHint"
+                    android:text="@{activity.inputName}"/>
+
+                <Button
+                    android:id="@+id/btn_done"
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/grayLine"
+                    android:text="@string/done"
+                    android:enabled="@{!activity.originalName.equals(activity.inputName)}"
+                    android:background="@drawable/button_enabled_selector"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_ultra_small"
+                android:background="@color/divider"/>
+
+            <TextView
+                android:layout_margin="@dimen/padding_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_main"
+                android:text="@string/manage_account" />
+-->
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:overScrollMode="never" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loading"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transDrawerMenuDark"
+            android:gravity="center">
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/strSaveChanges"/>
+        </LinearLayout>
+    </FrameLayout>
+         

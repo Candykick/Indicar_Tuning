@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="board_detail_menu">
+        <item>Modificar esta publicación</item>
+        <item>Borra esta publicación</item>
+    </string-array>
+    <string-array name="comment_item_menu">
+        <item>Modifica este comentario</item>
+        <item>Borrar este comentario</item>
+    </string-array>
+    <string-array name="emailArray">
+        <item>terra.com.mx</item>
+        <item>hotmail.com</item>
+        <item>yahoo.com</item>
+        <item>gmail.com</item>
+        <item>Otro...</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="account_setting">Configuraciones de la Cuenta</string>
+    <string name="account_tab_cart">Cesta</string>
+    <string name="account_tab_like">Gustar</string>
+    <string name="account_tab_more">Más</string>
+    <string name="account_tab_my_board">Mi publicacion</string>
+    <string name="all">todos</string>
+    <string name="app_name">Indicar Tuning</string>
+    <string name="bannerShopping1">http://13.125.173.118:9000/upload/community/1544171979987.png</string>
+    <string name="bannerShopping2">http://13.125.173.118:9000/upload/community/1544172097463.png</string>
+    <string name="bannerShopping3">http://13.125.173.118:9000/upload/community/1544172134478.PNG</string>
+    <string name="board_delete_done">Tu publicación ha sido eliminada con éxito.</string>
+    <string name="board_filter_hint">¿Sobre qué tipo de publicación escribes?</string>
+    <string name="board_list_empty">Lista Vacía</string>
+    <string name="board_update_fail">Error editing your publication. Inténtalo de nuevo.</string>
+    <string name="board_update_success">Tu publicación editada con éxito.</string>
+    <string name="board_upload_fail">No se pudo subir tu publicación. Inténtalo de nuevo.</string>
+    <string name="board_upload_success">Tu mensaje subido correctamente.</string>
+    <string name="board_write_hint">Por favor, introduzca su historia.</string>
+    <string name="cancel">Cancelar</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Ve a &lt;b>facebook.com/device&lt;/b> e ingresa el código que se muestra arriba.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Se produjo un error inesperado al descargar una imagen.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">El inicio de sesión de WebView requiere permisos de INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Error de AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Te gusta</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Me gusta</string>
+    <string gender="unknown" name="com_facebook_loading">Cargando...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Continuar con Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Iniciar sesión con Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Salir</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Salir</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Sesión iniciada como: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Iniciaste sesión con Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Enviar</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Compartir</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para conectar tu cuenta, abre la aplicación de Facebook en tu dispositivo móvil y comprueba las notificaciones.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">o</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">¿No eres tú?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Confirmar inicio de sesión</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Tú decides qué información quieres compartir con las apps.</string>
+    <string name="coming_soon">Próximamente.\nPuedes verlo en una futura actualización!</string>
+    <string name="comment">Comentario</string>
+    <string name="comment_box">Ingrese su comentario.</string>
+    <string name="comment_deleted">Tu comentario eliminado correctamente.</string>
+    <string name="comment_empty">¡Se el primero en publicar un comentario!</string>
+    <string name="comment_more">Más comentarios +</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Habilitar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no habilites Servicios de Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Habilita Servicios de Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Descargar Servicios de Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Error de Servicios de Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"La aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> tiene problemas con los Servicios de Google Play. Vuelve a intentarlo."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"No es posible ejecutar la aplicación <ns1:g id="APP_NAME">%1$s</ns1:g> sin los Servicios de Google Play, que no son compatibles con tu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Actualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionará hasta que no actualices Servicios de Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Actualiza Servicios de Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir en teléfono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sesión"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sesión con Google"</string>
+    <string name="contact">Indicar Tuning, indicar_tuning@naver.com</string>
+    <string name="copyright">Copyright 2017. Indicar Tuning All Rights Reserved.</string>
+    <string name="daylife">vida diaria</string>
+    <string name="default_setting">Configuración por Defecto</string>
+    <string name="dialog_agree">ACUERDO</string>
+    <string name="dialog_cancel">CANCELAR</string>
+    <string name="dialog_delete_account">No puedes recuperar tu cuenta una vez que la elimines.</string>
+    <string name="dialog_delete_account_sub">¿Estás seguro de eliminar tu cuenta?</string>
+    <string name="dialog_delete_board">No puedes recuperar la publicación una vez que la elimines.</string>
+    <string name="dialog_delete_board_sub">¿Estás seguro de eliminar la publicación?</string>
+    <string name="dialog_unity1">※ Se descargará el modelado de coches en 3D. Se incurrirá en una llamada de datos.</string>
+    <string name="dialog_unity1_sub">Le recomendamos que proceda en su entorno WIFI. Una vez que haya descargado el modelado, puede usarlo sin cargar. (Excepto si hay una actualización.)</string>
+    <string name="dialog_unity2">※ Se requiere permiso de CÁMARA y ALMACENAMIENTO EXTERNO para ejecutar el programa</string>
+    <string name="dialog_unity2_sub">No puede utilizar la aplicación sin aceptar los derechos requeridos.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="dialog_unity_sub">Todas las imágenes y contenidos no están disponibles para uso comercial. Todos los derechos reservados para nuestra empresa. Si quieres usarlo, por favor contáctanos. Se permite el uso personal. Gracias.</string>
+    <string name="diy">bricolaje</string>
+    <string name="done">Completar</string>
+    <string name="drawer_menu_subtitle">Seleccione el menú que desea utilizar.</string>
+    <string name="drawer_menu_title">¿Como puedo ayudarte?</string>
+    <string name="editNameHint">Por favor ingrese un nombre o apodo.</string>
+    <string name="editNameTitle">Nombre (Apodo)</string>
+    <string name="email">Email</string>
+    <string name="en">en</string>
+    <string name="english">English</string>
+    <string name="event_alarm_subtitle">Eventos &amp; Notificación Promoción</string>
+    <string name="event_alarm_title">Evento</string>
+    <string name="facebookGraphApi">"https://graph.facebook.com/"</string>
+    <string name="facebook_app_id">1228514043878949</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Varias"</string>
+    <string name="filter_all">TODOS</string>
+    <string name="filter_daylife">VIDA DIARIA</string>
+    <string name="filter_diy">BRICOLAJE</string>
+    <string name="filter_market">VENTA</string>
+    <string name="go_to_facebook">Ir a Facebook</string>
+    <string name="go_to_shopping">Ir al Centro Comercial</string>
+    <string name="go_to_youtube">Ir a YouTube</string>
+    <string name="how_to_use_subtitle">Vea cómo usar la aplicación</string>
+    <string name="how_to_use_title">Cómo utilizar</string>
+    <string name="image_empty">No hay imágenes seleccionadas.</string>
+    <string name="image_filter_hint">Por favor agregue imágenes.</string>
+    <string name="indiparts">Indiparts</string>
+    <string name="kakao_app_key">be2b15c91901a83730e1cc907a1ab965</string>
+    <string name="ko">ko</string>
+    <string name="korean">Korean</string>
+    <string name="language_setting">Configuraciones de Idioma</string>
+    <string name="like">Gustar</string>
+    <string name="line_channel_id">1586805168</string>
+    <string name="login_with_fb">Iniciar sesión con Facebook</string>
+    <string name="login_with_google">Inicia sesión con Google</string>
+    <string name="login_with_kakao">Iniciar sesión con Kakao</string>
+    <string name="login_with_line">Inicia sesión con Line</string>
+    <string name="makingList">Generando lista ...</string>
+    <string name="manage_account">Administra mi cuenta</string>
+    <string name="market">venta</string>
+    <string name="next">Próximo</string>
+    <string name="notice">Aviso</string>
+    <string name="notice_alarm_subtitle">Vehículo &amp; Notificación de Actualización de Piezas</string>
+    <string name="notice_alarm_title">Aviso</string>
+    <string name="notification_setting">Configuración de las Notificaciones</string>
+    <string name="partnership_subtitle">Solicitar una asociación con Indicar Tuning</string>
+    <string name="partnership_title">Asociación</string>
+    <string name="picture_list_empty">No hay imágenes seleccionadas.</string>
+    <string name="recommend_to_friends">Recomendar a mis amigos</string>
+    <string name="remove_account">RETIRA MI CUENTA</string>
+    <string name="resend_auth_email">Reenviar correo de verificación</string>
+    <string name="ru">ru</string>
+    <string name="search_box">Por favor, introduzca un término de búsqueda.</string>
+    <string name="search_filter_board">Seleccione el tipo de publicación.</string>
+    <string name="search_filter_language">Seleccione el país / idioma.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="send_auth_email">Enviar correo de verificación</string>
+    <string name="share">Compartir</string>
+    <string name="shopping_tab_avante">AVANTE</string>
+    <string name="shopping_tab_best">MEJOR</string>
+    <string name="shopping_tab_home">CASA</string>
+    <string name="shopping_tab_kona">KONA</string>
+    <string name="shopping_tab_new">NUEVO</string>
+    <string name="shopping_tab_qm6">KOLEOS</string>
+    <string name="shopping_tab_sonata">SONATA</string>
+    <string name="shopping_title_best">Mejor Vendido</string>
+    <string name="shopping_title_more">Más</string>
+    <string name="shopping_title_new">Nuevos Productos</string>
+    <string name="sign_out">DESCONECTAR</string>
+    <string name="sign_up">REGÍSTRATE</string>
+    <string name="skip">OMITIR</string>
+    <string name="start">COMIENZO</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="strAddUserAlarm1">Hola, </string>
+    <string name="strAddUserAlarm2">!</string>
+    <string name="strAddUserErr">Se produjo un error durante el proceso de registro de miembros. Inténtalo de nuevo.</string>
+    <string name="strAddUserFail">Ya existe una cuenta con ese correo electrónico. Por favor inicie sesión con su cuenta original.</string>
+    <string name="strBackpressed">Presione el botón Atrás una vez más si desea salir.</string>
+    <string name="strContact">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=28&amp;search.boardtype=Q</string>
+    <string name="strEmailexisted1">La cuenta registrada con ese correo electrónico existe.(</string>
+    <string name="strEmailexisted2">) Por favor inicie sesión con su cuenta original.</string>
+    <string name="strEmailexisted3">) Por favor ingrese otro correo electrónico.</string>
+    <string name="strErrwithCode">Hay un error : </string>
+    <string name="strIndicarEmail">indicar_tuning@naver.com</string>
+    <string name="strJoinProcess">Procesando membresía...</string>
+    <string name="strKakaoLoginStop">Detener Kakao Login:</string>
+    <string name="strLoginProcess">Procesando Login...</string>
+    <string name="strLoginedErr">La aplicación no pudo cargar la información del usuario correctamente. Por favor inicie sesión de nuevo.</string>
+    <string name="strLogoutSuccess">Cerrar sesión con éxito.</string>
+    <string name="strNoCar">No hay coches registrados todavía.</string>
+    <string name="strNoInternet">Su dispositivo no está conectado a Internet. Por favor, conecte su teléfono a Internet.</string>
+    <string name="strPartnership">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=31&amp;search.boardtype=L</string>
+    <string name="strPermissionDenied">No puede acceder a la aplicación sin aceptar los derechos requeridos.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="strReSCancel">Cancelar</string>
+    <string name="strRequestEmailCancel">La autenticación de correo electrónico existente se canceló porque el usuario solicitó un certificado de correo electrónico diferente. Por favor regístrese como nuevo miembro.</string>
+    <string name="strRequestEmailError">Se ha producido un error durante la autenticación del correo electrónico. Inténtalo de nuevo. Lamentamos los inconvenientes.</string>
+    <string name="strRequestEmailSent">Le hemos enviado un correo electrónico de verificación con el correo electrónico que ingresó. Por favor, revise su correo.</string>
+    <string name="strRequestEmailWait">La autenticación de correo electrónico no se ha completado. Por favor, revise su correo.</string>
+    <string name="strRestart">Reiniciar</string>
+    <string name="strSaveChanges">Guardando Cambios...</string>
+    <string name="strServerCheck">El servidor está siendo inspeccionado.</string>
+    <string name="strShoppingMall">https://smartstore.naver.com/indiparts</string>
+    <string name="strShoppingWillOpen">¡El centro comercial abrirá pronto!</string>
+    <string name="strSignoutErr">Se produjo un error durante el proceso de retiro del miembro. Inténtalo de nuevo.</string>
+    <string name="strSignoutSuccess">Retirada de membresía exitosa. Gracias por usar.</string>
+    <string name="strTermsUrl">https://m.cafe.naver.com/ArticleRead.nhn?clubid=29539791&amp;articleid=20&amp;page=1&amp;boardtype=L</string>
+    <string name="strTooLongNickname">El apodo debe tener un máximo de 20 caracteres, excepto el espaciado en español.</string>
+    <string name="strTooShortNickname">El apodo debe tener al menos 4 caracteres, excepto el espacio en español.</string>
+    <string name="strVersionErr">La versión no es correcta.</string>
+    <string name="strWannaChangeLang">Para cambiar el idioma, debes reiniciar la aplicación.\n¿Quieres reiniciar la aplicación?</string>
+    <string name="strWhatPermissionDeny">Permiso denegado\n</string>
+    <string name="strWritingPost">El dispositivo está subiendo tu publicación. Por favor espera......</string>
+    <string name="str_loadingtitle">Start of differentiated sensitivity\nfrom your vehicle</string>
+    <string name="strcannotCamera">La función de la cámara no está disponible hasta que se admita la memoria externa.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="strgetUserInfoError">Error al recuperar la información del usuario : </string>
+    <string name="submit">Enviar</string>
+    <string name="suggest_subtitle">Hacer preguntas &amp; Informar problemas</string>
+    <string name="suggest_title">1: 1 Contacto</string>
+    <string name="terms_subtitle">Términos de servicio</string>
+    <string name="terms_title">Condiciones</string>
+    <string name="total">Total</string>
+    <string name="tuning2Hint">Por favor, introduzca la marca o el nombre del vehículo.</string>
+    <string name="version_subtitle">Versión Actual : v.1.0.0</string>
+    <string name="version_title">Versión</string>
+    <string name="welcome_main_text_community">¡Publica tu historia e interactúa con otros usuarios!</string>
+    <string name="welcome_main_text_tuning">Elija el vehículo que desea sintonizar!</string>
+    <string name="welcome_main_text_unity">Disfrute de Virtual 3D Coche Sintonización!</string>
+    <string name="welcome_sub_text_community">Puedes ver varias publicaciones por tipo de coche.</string>
+    <string name="welcome_sub_text_tuning">Los avisos le informan de la información sobre las actualizaciones.</string>
+    <string name="welcome_sub_text_unity">Adjuntar partes del mercado real.</string>
+    <string name="welcome_tab_community">COMUNIDAD</string>
+    <string name="welcome_tab_tuning">SINTONIA VIRTUAL</string>
+    <string name="write_content_hint">Por favor escribe tu historia.</string>
+</resources>

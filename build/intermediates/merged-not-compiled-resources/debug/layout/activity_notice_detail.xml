@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                       
+                                                      
+           
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/activity_notice_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" android:tag="binding_1">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/layout_text_toolbar"/>
+
+            <LinearLayout
+                android:padding="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"
+                    android:tag="binding_2"           />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="@dimen/padding_ultra_small"
+                        android:textSize="@dimen/text_size_main"
+                        android:textColor="@color/black"
+                        android:tag="binding_3"             />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/padding_small"
+                        android:layout_marginStart="@dimen/padding_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_small"
+                        android:gravity="bottom"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_file"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+         

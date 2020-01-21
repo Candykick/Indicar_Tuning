@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/fragment_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.AppBarLayout
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:tag="binding_1">
+
+            <include
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                layout="@layout/layout_toolbar"/>
+
+            <ImageView
+                android:id="@+id/image_tuning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_margin="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    app:srcCompat="@drawable/icon_notice"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/padding_ultra_small"
+                    android:layout_marginStart="@dimen/padding_ultra_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_main"
+                    android:text="@string/notice"/>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:overScrollMode="never"/>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+         

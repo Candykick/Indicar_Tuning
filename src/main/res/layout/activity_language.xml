@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="activity"
+            type="com.iindicar.indicar.view.main.LanguageActivity"/>
+        <import type="android.view.View"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvLangTitle"
+            android:layout_marginLeft="@dimen/padding_main"
+            android:layout_marginRight="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_main"
+            android:text="Select your Language."
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/llLang1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/tvLangTitle"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnLangEng"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/icon_us"
+                android:onClick="@{() -> activity.btnLangEng()}"/>
+            <Button
+                android:id="@+id/btnLangKor"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/icon_korea"
+                android:onClick="@{() -> activity.btnLangKor()}"/>
+            <Button
+                android:id="@+id/btnLangRu"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/icon_russia"
+                android:onClick="@{() -> activity.btnLangRus()}"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llLang2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/llLang1"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnLangSp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/icon_spain"
+                android:onClick="@{() -> activity.btnLangSpa()}"/>
+            <Button
+                android:id="@+id/btnLangPr"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/icon_portugal"
+                android:onClick="@{() -> activity.btnLangPor()}"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLangNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            app:layout_constraintTop_toBottomOf="@id/llLang2"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:onClick="@{() -> activity.btnLangNext()}"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

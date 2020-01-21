@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.Notice"/>
+    </data>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/padding_main"
+        android:layout_marginRight="@dimen/padding_main"
+        android:layout_marginBottom="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            image="@{item.mainFileUrl}"
+            android:id="@+id/iv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

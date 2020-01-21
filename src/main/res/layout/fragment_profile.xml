@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+        <variable
+            name="fragment"
+            type="com.iindicar.indicar.view.account.profile.ProfileFragment"/>
+        <variable
+            name="user"
+            type="com.iindicar.indicar.model.User"/>
+    </data>
+
+    <android.support.v4.widget.NestedScrollView
+        android:background="@null"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="@dimen/profile_image_size_large"
+                    android:layout_height="@dimen/profile_image_size_large"
+                    imageCircle="@{user.userImageUrl}"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_large"
+                        android:lineSpacingExtra="@dimen/padding_small"
+                        android:text="@{user.userName}"/>
+
+                    <TextView
+                        android:id="@+id/ap_tvEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="@{user.userEmail}"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_small"
+                android:background="@color/divider"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_small"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:text="@string/default_setting"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_notification"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/btn_alarm"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/notification_setting"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_language"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/drawer_language"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/language_setting"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_small"
+                android:background="@color/divider"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_small"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:text="@string/account_setting"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_account"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/icon_user"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/manage_account"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_small"
+                android:background="@color/divider"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_small"
+                android:paddingBottom="@dimen/padding_small"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:text="@string/app_name"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_shopping"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/icon_naver_shopping"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/go_to_shopping"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_facebook"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/login_facebook_logo"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/go_to_facebook"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_youtube"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:src="@drawable/icon_youtube"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/go_to_youtube"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <LinearLayout
+                android:id="@+id/btn_share"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    app:srcCompat="@drawable/btn_share"/>
+
+                <TextView
+                    android:layout_margin="@dimen/padding_main"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/recommend_to_friends"/>
+
+                <ImageView
+                    android:paddingLeft="@dimen/padding_small"
+                    style="@style/mediumImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

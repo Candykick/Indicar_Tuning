@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.Board"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/padding_ultra_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:cardBackgroundColor="@null"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    imageCenterCrop="@{item.mainFileUrl}"
+                    android:id="@+id/iv_notice"
+                    android:layout_width="match_parent"
+                    android:layout_height="168dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_ultra_small"
+            android:layout_marginLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_small"
+            android:layout_marginBottom="@dimen/padding_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    imageCircle="@{item.authorImageUrl}"
+                    android:layout_width="@dimen/profile_image_size_ultra_small"
+                    android:layout_height="@dimen/profile_image_size_ultra_small" />
+
+                <TextView
+                    android:padding="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:text="@{item.authorName}"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_ultra_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:minLines="2"
+                android:ellipsize="end"
+                android:lineSpacingExtra="@dimen/padding_ultra_small"
+                android:textSize="@dimen/text_size_small"
+                android:textColor="@color/black"
+                android:text="@{item.mainText}"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageButton
+                    style="@style/smallImageButton"
+                    android:src="@drawable/board_like_count"/>
+
+                <TextView
+                    android:padding="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{String.valueOf(safeUnbox(item.likeCount))}"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"/>
+
+                <ImageButton
+                    style="@style/smallImageButton"
+                    app:srcCompat="@drawable/board_comment_count"/>
+
+                <TextView
+                    android:padding="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{String.valueOf(safeUnbox(item.commentCount))}"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

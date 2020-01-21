@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                       
+                                                         
+           
+
+    <ScrollView
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/holder_write_content_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tag="binding_1" />
+
+            <EditText
+                android:id="@+id/et_text"
+                android:padding="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="80dp"
+                android:gravity="top"
+                android:hint="@string/board_write_hint"
+                android:background="@android:color/transparent"
+                android:lineSpacingExtra="@dimen/padding_ultra_small"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:textSize="@dimen/text_size_medium"
+                android:tag="binding_2"        />
+
+        </LinearLayout>
+    </ScrollView>
+         

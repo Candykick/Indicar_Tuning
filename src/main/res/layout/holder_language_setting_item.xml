@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.view.account.profile.LanguageSettingActivity.LanguageSettingItem"/>
+        <variable
+            name="language"
+            type="android.databinding.ObservableField"/>
+    </data>
+
+    <LinearLayout
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_main"
+        android:paddingBottom="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_main"
+            android:textColor="@color/black"
+            android:text="@{item.languageString}"/>
+
+        <ImageButton
+            style="@style/mainImageButton"
+            android:visibility="@{item.language.equals(language)}"
+            app:srcCompat="@drawable/icon_selected"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.Notice"/>
+    </data>
+
+    <LinearLayout
+        android:layout_margin="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_ultra_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@{item.noticeTitle}"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_ultra_small"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="@dimen/text_size_medium"
+                date="@{item.writeTime}"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/padding_ultra_small"
+            android:layout_marginBottom="@dimen/padding_ultra_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_main"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:text="@{item.noticeContent}"/>
+
+        <ImageView
+            image="@{item.mainFileUrl}"
+            android:id="@+id/iv_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</layout>

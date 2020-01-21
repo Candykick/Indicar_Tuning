@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorFontLight">#979797</color>
+    <color name="searchBoxTransParent">#cecece</color>
+
+    <!-- latest -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkGray">#181818</color>
+    <color name="gray">#555B5E</color>
+    <color name="divider">#f2f2f2</color>
+    <color name="grayLine">#cecece</color>
+    <color name="grayRoundBox">#3D3D3D</color>
+    <color name="transDrawerMenu">#c4f2f2f2</color>
+    <color name="transDrawerMenuDark">#c4c6c6c6</color>
+    <color name="transSelectedFilter">#8cf2f2f2</color>
+    <color name="transCircle">#a4585858</color>
+    <color name="transImage">#a4000000</color>
+
+    <!-- login -->
+    <color name="bgGoogle">#DC4A38</color>
+    <color name="bgFacebook">#3A5897</color>
+    <color name="bgKakao">#FFE812</color>
+    <color name="textKakao">#3A1D1D</color>
+    <color name="bgLine">#46D037</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="emailArray">
+        <item>terra.com.mx</item>
+        <item>hotmail.com</item>
+        <item>yahoo.com</item>
+        <item>gmail.com</item>
+        <item>Otro...</item>
+    </string-array>
+
+    <string-array name="comment_item_menu">
+        <item>Modifica este comentario</item>
+        <item>Borrar este comentario</item>
+    </string-array>
+
+    <string-array name="board_detail_menu">
+        <item>Modificar esta publicación</item>
+        <item>Borra esta publicación</item>
+    </string-array>
+</resources>

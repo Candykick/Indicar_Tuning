@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                           
+                                                                     
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/activity_join_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:tag="binding_1">
+
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/layout_text_toolbar"/>
+
+            </android.support.design.widget.AppBarLayout>
+
+            <LinearLayout
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_margin="@dimen/padding_large"
+                    android:layout_width="wrap_content"
+                    android:layout_height="78dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon_sign_up"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_main"
+                    android:text="@string/editNameTitle"
+                    android:textColor="@color/black"/>
+
+                <EditText
+                    android:id="@+id/joinetName"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/line_box"
+                    android:textSize="@dimen/text_size_main"
+                    android:hint="@string/editNameHint"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/padding_large"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_main"
+                    android:text="@string/email"
+                    android:textColor="@color/black"/>
+
+                <FrameLayout
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Spinner
+                        android:id="@+id/jiN_AlertSpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/text_size_main"
+                        android:gravity="center_vertical"
+                        android:spinnerMode="dialog"/>
+
+                    <LinearLayout
+                        android:id="@+id/email_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/jiN_AlertEmail1"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textSize="@dimen/text_size_main"
+                            android:textColor="@color/black"
+                            android:background="@drawable/line_box"
+                            android:hint="Email"
+                            android:inputType="textEmailAddress"/>
+
+                        <TextView
+                            android:id="@+id/tvab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding_ultra_small"
+                            android:layout_marginRight="@dimen/padding_ultra_small"
+                            android:text="\@"
+                            android:textSize="@dimen/text_size_main"
+                            android:textColor="@color/black"/>
+
+                        <EditText
+                            android:id="@+id/jiN_AlertEmail2"
+                            android:layout_marginRight="40dp"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:background="@drawable/line_box"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_main"
+                            android:hint="Email"/>
+                    </LinearLayout>
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/joinbtnEmailAuth"
+                    android:layout_marginTop="@dimen/padding_large"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:padding="@dimen/padding_small"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/send_auth_email"
+                    android:tag="binding_2"                                />
+
+                <TextView
+                    android:id="@+id/joinbtnResendEmail"
+                    android:layout_marginTop="@dimen/padding_large"
+                    android:layout_marginLeft="@dimen/padding_main"
+                    android:layout_marginRight="@dimen/padding_main"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:padding="@dimen/padding_small"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/resend_auth_email"
+                    android:tag="binding_3"                                />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:id="@+id/joinbtnJoin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_main"
+                    android:padding="@dimen/padding_small"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:tag="binding_4"                   
+                    android:background="@drawable/line_round_button">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/button_size_main"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/btn_sign_up"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/padding_ultra_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_small"
+                        android:textColor="@color/gray"
+                        android:text="@string/sign_up"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.design.widget.CoordinatorLayout>
+
+        <LinearLayout
+            android:id="@+id/loadingjoin"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transDrawerMenuDark"
+            android:gravity="center"
+            android:focusable="true"
+            android:clickable="true">
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/strJoinProcess"/>
+        </LinearLayout>
+    </FrameLayout>
+         

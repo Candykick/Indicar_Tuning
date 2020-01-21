@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable name="boardType" type="android.databinding.ObservableField"/>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.BoardFilterItem"/>
+    </data>
+
+    <FrameLayout
+        android:id="@+id/item_frame"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            image="@{item.imageId}"/>
+
+        <View
+            android:visibility="@{item.typeName.equals(boardType)}"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transSelectedFilter"/>
+
+        <ImageView
+            android:visibility="@{item.typeName.equals(boardType)}"
+            android:layout_gravity="center"
+            style="@style/ultraLargeImageButton"
+            app:srcCompat="@drawable/icon_selected"/>
+    </FrameLayout>
+</layout>

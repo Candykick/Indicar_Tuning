@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                           
+                                                                             
+                                          
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white" android:tag="layout/activity_tutorial_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_ultra_large" />
+
+        <android.support.v4.view.ViewPager
+            android:paddingTop="@dimen/padding_ultra_large"
+            android:paddingBottom="@dimen/padding_ultra_large"
+            android:id="@+id/view_pager_welcome"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_ultra_large" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".5"
+            android:background="@color/divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="binding_1"                                                          
+                android:background="@null"
+                android:padding="@dimen/padding_main"
+                android:text="@string/skip"
+                android:textColor="@color/colorFontLight"
+                android:textSize="@dimen/text_size_main" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_margin="@dimen/padding_small"
+                android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:tag="binding_2"                                               
+                android:background="@drawable/line_circle_unselected"/>
+
+            <Button
+                android:layout_margin="@dimen/padding_small"
+                android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:tag="binding_3"                                               
+                android:background="@drawable/line_circle_unselected"/>
+
+            <Button
+                android:layout_margin="@dimen/padding_small"
+                android:layout_height="12dp"
+                android:layout_width="12dp"
+                android:tag="binding_4"                                               
+                android:background="@drawable/line_circle_unselected"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:padding="@dimen/padding_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="@dimen/text_size_main"
+                android:tag="binding_5"                                                   />
+
+        </LinearLayout>
+    </LinearLayout>
+         

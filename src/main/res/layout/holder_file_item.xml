@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.BoardFile"/>
+    </data>
+
+    <LinearLayout
+        android:paddingBottom="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                image="@{item.filePath}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <TextView
+            android:padding="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/padding_ultra_small"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/black"
+            android:text="@{item.fileText}"/>
+    </LinearLayout>
+</layout>

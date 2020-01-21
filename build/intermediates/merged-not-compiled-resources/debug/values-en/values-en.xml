@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="board_detail_menu">
+        <item>Modify this post</item>
+        <item>Delete this post</item>
+    </string-array>
+    <string-array name="comment_item_menu">
+        <item>Modify this comment</item>
+        <item>Delete this comment</item>
+    </string-array>
+    <string-array name="emailArray">
+        <item>gmail.com</item>
+        <item>hotmail.com</item>
+        <item>yahoo.com</item>
+        <item>mail.com</item>
+        <item>Other...</item>
+    </string-array>
+    <string name="account_setting">Account Settings</string>
+    <string name="account_tab_cart">Cart</string>
+    <string name="account_tab_like">Like</string>
+    <string name="account_tab_more">More</string>
+    <string name="account_tab_my_board">My Post</string>
+    <string name="all">all</string>
+    <string name="app_name">Indicar Tuning</string>
+    <string name="bannerShopping1">http://13.125.173.118:9000/upload/community/1544171979987.png</string>
+    <string name="bannerShopping2">http://13.125.173.118:9000/upload/community/1544172097463.png</string>
+    <string name="bannerShopping3">http://13.125.173.118:9000/upload/community/1544172134478.PNG</string>
+    <string name="board_delete_done">Your post deleted successfully.</string>
+    <string name="board_filter_hint">What kind of post do you writing about?</string>
+    <string name="board_list_empty">Empty List</string>
+    <string name="board_update_fail">Failed to edit your post. Please try again.</string>
+    <string name="board_update_success">Your post edited successfully.</string>
+    <string name="board_upload_fail">Failed to upload your post. Please try again.</string>
+    <string name="board_upload_success">Your post uploaded successfully.</string>
+    <string name="board_write_hint">Please enter your story.</string>
+    <string name="cancel">Cancel</string>
+    <string name="coming_soon">Coming Soon.\nYou can see it in a future update!</string>
+    <string name="comment">Comment</string>
+    <string name="comment_box">Enter your comment.</string>
+    <string name="comment_deleted">Your comment deleted successfully.</string>
+    <string name="comment_empty">Be the first to post a comment!</string>
+    <string name="comment_more">More Comments +</string>
+    <string name="contact">Indicar Tuning, indicar_tuning@naver.com</string>
+    <string name="copyright">Copyright 2017. Indicar Tuning All Rights Reserved.</string>
+    <string name="daylife">daylife</string>
+    <string name="default_setting">Default Settings</string>
+    <string name="dialog_agree">AGREE</string>
+    <string name="dialog_cancel">CANCEL</string>
+    <string name="dialog_delete_account">You cannot recover your account once you remove it.</string>
+    <string name="dialog_delete_account_sub">Are you sure to remove you account?</string>
+    <string name="dialog_delete_board">You cannot recover the post once you delete it.</string>
+    <string name="dialog_delete_board_sub">Are you sure to delete the post?</string>
+    <string name="dialog_unity1">※ The 3D car data will be downloaded. A data cost will be incurred.</string>
+    <string name="dialog_unity1_sub">WIFI mode recommended. Once you downloaded the car, you can use it without loading. (Except if there is an update.)</string>
+    <string name="dialog_unity2">※ Required CAMERA and EXTERNAL STORAGE permission to execute the program</string>
+    <string name="dialog_unity2_sub">You can not use the app without accepting required rights.\nYou can grant permission at [Settings] > [Permission].</string>
+    <string name="dialog_unity_sub">All the images and contents are not available for commercial use. All rights reserved for our company. If you want to use it, please contact us. Personal use is permitted. Thank you.</string>
+    <string name="diy">diy</string>
+    <string name="done">Done</string>
+    <string name="drawer_menu_subtitle">Select the menu you want to use.</string>
+    <string name="drawer_menu_title">How can I help you?</string>
+    <string name="editNameHint">Please enter a name or nickname.</string>
+    <string name="editNameTitle">Name (Nickname)</string>
+    <string name="email">Email</string>
+    <string name="en">en</string>
+    <string name="english">English</string>
+    <string name="event_alarm_subtitle">Events &amp; Promotions Notification</string>
+    <string name="event_alarm_title">Event</string>
+    <string name="facebookGraphApi">"https://graph.facebook.com/"</string>
+    <string name="facebook_app_id">1228514043878949</string>
+    <string name="filter_all">ALL</string>
+    <string name="filter_daylife">DAILY LIFE</string>
+    <string name="filter_diy">DIY</string>
+    <string name="filter_market">MARKET</string>
+    <string name="go_to_facebook">Go to Facebook</string>
+    <string name="go_to_shopping">Go to Shopping Mall</string>
+    <string name="go_to_youtube">Go to YouTube</string>
+    <string name="how_to_use_subtitle">See how to use the app</string>
+    <string name="how_to_use_title">How to Use</string>
+    <string name="image_empty">No pictures selected.</string>
+    <string name="image_filter_hint">Please add pictures.</string>
+    <string name="indiparts">Indiparts</string>
+    <string name="kakao_app_key">be2b15c91901a83730e1cc907a1ab965</string>
+    <string name="ko">ko</string>
+    <string name="korean">Korean</string>
+    <string name="language_setting">Language Settings</string>
+    <string name="like">Like</string>
+    <string name="line_channel_id">1586805168</string>
+    <string name="login_with_fb">Login with Facebook</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_kakao">Login with Kakao</string>
+    <string name="login_with_line">Login with Line</string>
+    <string name="makingList">Generating list ...</string>
+    <string name="manage_account">Manage my account</string>
+    <string name="market">market</string>
+    <string name="next">Next</string>
+    <string name="notice">Notice</string>
+    <string name="notice_alarm_subtitle">Vehicle &amp; Parts Update Notification</string>
+    <string name="notice_alarm_title">Notice</string>
+    <string name="notification_setting">Notification Settings</string>
+    <string name="partnership_subtitle">Request a partnership with Indicar Tuning</string>
+    <string name="partnership_title">Partnership</string>
+    <string name="picture_list_empty">No pictures selected.</string>
+    <string name="recommend_to_friends">Recommend to my friends</string>
+    <string name="remove_account">REMOVE MY ACCOUNT</string>
+    <string name="resend_auth_email">Resend verification mail</string>
+    <string name="ru">ru</string>
+    <string name="search_box">Please enter your search terms here.</string>
+    <string name="search_filter_board">Select the type of post.</string>
+    <string name="search_filter_language">Select the Country/Language.</string>
+    <string name="send_auth_email">send verification mail</string>
+    <string name="share">Share</string>
+    <string name="shopping_tab_avante">AVANTE</string>
+    <string name="shopping_tab_best">BEST</string>
+    <string name="shopping_tab_home">HOME</string>
+    <string name="shopping_tab_kona">KONA</string>
+    <string name="shopping_tab_new">NEW</string>
+    <string name="shopping_tab_qm6">QM6</string>
+    <string name="shopping_tab_sonata">SONATA</string>
+    <string name="shopping_title_best">Best Seller</string>
+    <string name="shopping_title_more">More</string>
+    <string name="shopping_title_new">New Products</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="strAddUserAlarm1">Hello, </string>
+    <string name="strAddUserAlarm2">!</string>
+    <string name="strAddUserErr">Error occurred during member registration processing. Please try again.</string>
+    <string name="strAddUserFail">An account with that email already exists. Please login with your original account.</string>
+    <string name="strBackpressed">Press the Back button one more time if you want to exit.</string>
+    <string name="strContact">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=28&amp;search.boardtype=Q</string>
+    <string name="strEmailexisted1">The account registered with that email exists.(</string>
+    <string name="strEmailexisted2">) Please login with your original account.</string>
+    <string name="strEmailexisted3">) Please enter another email.</string>
+    <string name="strErrwithCode">There is an error : </string>
+    <string name="strIndicarEmail">indicar_tuning@naver.com</string>
+    <string name="strJoinProcess">Processing membership...</string>
+    <string name="strKakaoLoginStop">Stop Kakao Login: </string>
+    <string name="strLoginProcess">Processing Login...</string>
+    <string name="strLoginedErr">The app failed to load user information properly. Please login again.</string>
+    <string name="strLogoutSuccess">Successfully logout.</string>
+    <string name="strNoCar">There are no cars registered yet.</string>
+    <string name="strNoInternet">Your device is not connected to the Internet. Please connect your phone to the Internet.</string>
+    <string name="strPartnership">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=31&amp;search.boardtype=L</string>
+    <string name="strPermissionDenied">You can not access the app without accepting required rights.\nYou can grant permission at [Settings] > [Permission].</string>
+    <string name="strReSCancel">Cancel</string>
+    <string name="strRequestEmailCancel">The existing e-mail authentication has been cancelled because the user requested a different e-mail certificate. Please sign up as a new member.</string>
+    <string name="strRequestEmailError">An error occurred during email authentication. Please try again. We are sorry for the inconvenience.</string>
+    <string name="strRequestEmailSent">We have sent you a verification email with the email you entered. Please check your mailbox.</string>
+    <string name="strRequestEmailWait">E-mail authentication has not been completed. Please check your mailbox.</string>
+    <string name="strRestart">Restart</string>
+    <string name="strSaveChanges">Saving Changes...</string>
+    <string name="strServerCheck">The server is undergoing inspection.</string>
+    <string name="strShoppingMall">https://smartstore.naver.com/indiparts</string>
+    <string name="strShoppingWillOpen">The shopping mall will open soon!</string>
+    <string name="strSignoutErr">Error occurred during member withdrawal process. Please try again.</string>
+    <string name="strSignoutSuccess">Membership withdrawal successful. Thank you for using.</string>
+    <string name="strTermsUrl">https://m.cafe.naver.com/ArticleRead.nhn?clubid=29539791&amp;articleid=20&amp;page=1&amp;boardtype=L</string>
+    <string name="strTooLongNickname">The nickname should be within 20 characters except for spacing in English.</string>
+    <string name="strTooShortNickname">Nickname must be at least 4 characters except for spacing in English.</string>
+    <string name="strVersionErr">The version is not correct.</string>
+    <string name="strWannaChangeLang">To change the language, you must restart the app.\nDo you want to restart the app?</string>
+    <string name="strWhatPermissionDeny">Permission denied\n</string>
+    <string name="strWritingPost">The device is uploading your post. Please wait......</string>
+    <string name="str_loadingtitle">Start of differentiated sensitivity\nfrom your vehicle</string>
+    <string name="strcannotCamera">Camera function is not available until external memory is supported. \nYou can grant permission at [Settings] > [Permission].</string>
+    <string name="strgetUserInfoError">Failed to retrieve user information : </string>
+    <string name="submit">Submit</string>
+    <string name="suggest_subtitle">Ask Questions &amp; Reporting Issues</string>
+    <string name="suggest_title">1:1 Contact</string>
+    <string name="terms_subtitle">Terms of Service</string>
+    <string name="terms_title">Terms</string>
+    <string name="total">Total</string>
+    <string name="tuning2Hint">Please enter brand or vehicle name.</string>
+    <string name="version_subtitle">Current Version : v.1.0.0</string>
+    <string name="version_title">Version</string>
+    <string name="welcome_main_text_community">Post Your Story And Interact With Other Users!</string>
+    <string name="welcome_main_text_tuning">Choose The Vehicle You Want To Tune!</string>
+    <string name="welcome_main_text_unity">Enjoy Virtual 3D Car Tuning!</string>
+    <string name="welcome_sub_text_community">You can see various posts by car type.</string>
+    <string name="welcome_sub_text_tuning">Notices let you know the information about the updates.</string>
+    <string name="welcome_sub_text_unity">Attach parts from the actual market.</string>
+    <string name="welcome_tab_community">COMMUNITY</string>
+    <string name="welcome_tab_tuning">VIRTUAL TUNING</string>
+    <string name="write_content_hint">Please write your story.</string>
+</resources>

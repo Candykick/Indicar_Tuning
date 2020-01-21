@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="board_detail_menu">
+        <item>Modifique esta postagem</item>
+        <item>Excluir esta postagem</item>
+    </string-array>
+    <string-array name="comment_item_menu">
+        <item>Modifique este comentário</item>
+        <item>Excluir este comentário</item>
+    </string-array>
+    <string-array name="emailArray">
+        <item>terra.com.br</item>
+        <item>uol.com.br</item>
+        <item>yahoo.com</item>
+        <item>gmail.com</item>
+        <item>De outros...</item>
+    </string-array>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="account_setting">Configurações da Conta</string>
+    <string name="account_tab_cart">Cesta</string>
+    <string name="account_tab_like">Gostar</string>
+    <string name="account_tab_more">Mais</string>
+    <string name="account_tab_my_board">Minha Postar</string>
+    <string name="all">todos</string>
+    <string name="app_name">Indicar Tuning</string>
+    <string name="bannerShopping1">http://13.125.173.118:9000/upload/community/1544171979987.png</string>
+    <string name="bannerShopping2">http://13.125.173.118:9000/upload/community/1544172097463.png</string>
+    <string name="bannerShopping3">http://13.125.173.118:9000/upload/community/1544172134478.PNG</string>
+    <string name="board_delete_done">Sua postagem foi excluída com sucesso.</string>
+    <string name="board_filter_hint">Que tipo de postagem você está escrevendo?</string>
+    <string name="board_list_empty">Lista Vazia</string>
+    <string name="board_update_fail">Não foi possível editar sua postagem. Por favor, tente novamente.</string>
+    <string name="board_update_success">Sua postagem foi editada com sucesso.</string>
+    <string name="board_upload_fail">Não foi possível enviar sua postagem. Por favor, tente novamente.</string>
+    <string name="board_upload_success">Sua postagem foi enviada com sucesso.</string>
+    <string name="board_write_hint">Por favor, insira sua história.</string>
+    <string name="cancel">Cancelar</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">Acesse &lt;b>facebook.com/device&lt;/b> e insira o código mostrado acima.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">Erro inesperado ao baixar uma imagem.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">O login do WebView exige permissão da INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">Erro AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">Curtiu</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">Curtir</string>
+    <string gender="unknown" name="com_facebook_loading">Carregando...</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">Cancelar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">Entrar</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Continuar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">Entrar com o Facebook</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">Sair</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">Sair</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">Conectado como: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">Conectado usando o Facebook</string>
+    <string gender="unknown" name="com_facebook_send_button_text">Enviar</string>
+    <string gender="unknown" name="com_facebook_share_button_text">Compartilhar</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">Para conectar sua conta, abra o aplicativo do Facebook no seu dispositivo móvel e verifique se há notificações.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- OU -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">Não é você?</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">Continuar como %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">Confirmar login</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">Você está no controle — escolha quais informações você quer compartilhar com os aplicativos.</string>
+    <string name="coming_soon">Em breve.\nVocê pode ver isso em uma atualização futura!</string>
+    <string name="comment">Comente</string>
+    <string name="comment_box">Digite seu comentário.</string>
+    <string name="comment_deleted">Seu comentário foi excluído com sucesso.</string>
+    <string name="comment_empty">Seja o primeiro a postar um comentário!</string>
+    <string name="comment_more">Mais Comentários +</string>
+    <string name="contact">Indicar Tuning, indicar_tuning@naver.com</string>
+    <string name="copyright">Copyright 2017. Indicar Tuning All Rights Reserved.</string>
+    <string name="daylife">vida cotidiana</string>
+    <string name="default_setting">Configurações Padrão</string>
+    <string name="dialog_agree">CONCORDAR</string>
+    <string name="dialog_cancel">CANCELAR</string>
+    <string name="dialog_delete_account">Você não pode recuperar sua conta depois de removê-la.</string>
+    <string name="dialog_delete_account_sub">Você tem certeza de remover sua conta?</string>
+    <string name="dialog_delete_board">Você não pode recuperar a postagem depois de excluí-la.</string>
+    <string name="dialog_delete_board_sub">Tem certeza de excluir a postagem?</string>
+    <string name="dialog_unity1">※ O 3D Car Modeling será baixado. Uma chamada de dados será incorrida.</string>
+    <string name="dialog_unity1_sub">Recomendamos que você prossiga em seu ambiente WIFI. Depois de ter baixado a modelagem, você pode usá-lo sem carregar. (Exceto se houver uma atualização.)</string>
+    <string name="dialog_unity2">※ Afinação do carro 3D requer permissão de Câmera e Armazenamento externo.</string>
+    <string name="dialog_unity2_sub">Você não pode usar o aplicativo sem aceitar os direitos necessários.\nVocê pode conceder permissão em [Configurações]> [Permissão].</string>
+    <string name="dialog_unity_sub">Todas as imagens e conteúdos não estão disponíveis para uso comercial. Todos os direitos reservados para nossa empresa. Se você quiser usá-lo, entre em contato conosco. O uso pessoal é permitido. Obrigado.</string>
+    <string name="diy">faça você mesmo</string>
+    <string name="done">Feito</string>
+    <string name="drawer_menu_subtitle">Selecione o menu que você deseja usar.</string>
+    <string name="drawer_menu_title">Como posso ajudá-lo?</string>
+    <string name="editNameHint">Por favor, insira um nome ou apelido.</string>
+    <string name="editNameTitle">Nome (Apelido)</string>
+    <string name="email">Email</string>
+    <string name="en">en</string>
+    <string name="english">English</string>
+    <string name="event_alarm_subtitle">Notificação de Eventos &amp; promoções</string>
+    <string name="event_alarm_title">Evento</string>
+    <string name="facebookGraphApi">"https://graph.facebook.com/"</string>
+    <string name="facebook_app_id">1228514043878949</string>
+    <string name="filter_all">TODOS</string>
+    <string name="filter_daylife">VIDA COTIDIANA</string>
+    <string name="filter_diy">Faça Você Mesmo</string>
+    <string name="filter_market">VENDA</string>
+    <string name="go_to_facebook">Vá para o Facebook</string>
+    <string name="go_to_shopping">Vá ao Shopping</string>
+    <string name="go_to_youtube">Ir para o YouTube</string>
+    <string name="how_to_use_subtitle">Como usar o aplicativo</string>
+    <string name="how_to_use_title">Como Usar</string>
+    <string name="image_empty">Nenhuma foto selecionada.</string>
+    <string name="image_filter_hint">Por favor, adicione fotos.</string>
+    <string name="indiparts">Indiparts</string>
+    <string name="kakao_app_key">be2b15c91901a83730e1cc907a1ab965</string>
+    <string name="ko">ko</string>
+    <string name="korean">Korean</string>
+    <string name="language_setting">Configurações de Linguagem</string>
+    <string name="like">Gostar</string>
+    <string name="line_channel_id">1586805168</string>
+    <string name="login_with_fb">Entrar com o Facebook</string>
+    <string name="login_with_google">Entre com o Google</string>
+    <string name="login_with_kakao">Entre com o Kakao</string>
+    <string name="login_with_line">Entre com o Line</string>
+    <string name="makingList">Gerando lista ...</string>
+    <string name="manage_account">Gerenciar minha conta</string>
+    <string name="market">venda</string>
+    <string name="next">Próximo</string>
+    <string name="notice">Aviso</string>
+    <string name="notice_alarm_subtitle">Notificação de atualização de Veículo &amp; peças</string>
+    <string name="notice_alarm_title">Aviso</string>
+    <string name="notification_setting">Configurações de Notificação</string>
+    <string name="partnership_subtitle">Solicite uma parceria com o Indicar Tuning</string>
+    <string name="partnership_title">Parceria</string>
+    <string name="picture_list_empty">Nenhuma foto selecionada.</string>
+    <string name="recommend_to_friends">Recomende aos meus amigos</string>
+    <string name="remove_account">REMOVER MINHA CONTA</string>
+    <string name="resend_auth_email">Reenviar email de verificação</string>
+    <string name="ru">ru</string>
+    <string name="search_box">Por favor, digite seus termos de pesquisa aqui.</string>
+    <string name="search_filter_board">Selecione o tipo de postagem.</string>
+    <string name="search_filter_language">Selecione o país/idioma.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string name="send_auth_email">enviar e-mail de verificação</string>
+    <string name="share">Compartilhar</string>
+    <string name="shopping_tab_avante">AVANTE</string>
+    <string name="shopping_tab_best">MELHOR</string>
+    <string name="shopping_tab_home">CASA</string>
+    <string name="shopping_tab_kona">KONA</string>
+    <string name="shopping_tab_new">NOVO</string>
+    <string name="shopping_tab_qm6">QM6</string>
+    <string name="shopping_tab_sonata">SONATA</string>
+    <string name="shopping_title_best">Mais Vendidos</string>
+    <string name="shopping_title_more">Mais</string>
+    <string name="shopping_title_new">Novos Produtos</string>
+    <string name="sign_out">SAIR</string>
+    <string name="sign_up">INSCREVER-SE</string>
+    <string name="skip">PULAR</string>
+    <string name="start">COMEÇAR</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="strAddUserAlarm1">Olá, </string>
+    <string name="strAddUserAlarm2">!</string>
+    <string name="strAddUserErr">Ocorreu um erro durante o processamento do registro de membro. Por favor, tente novamente.</string>
+    <string name="strAddUserFail">Uma conta com esse email já existe. Por favor, faça o login com sua conta original.</string>
+    <string name="strBackpressed">Pressione o botão Voltar mais uma vez se quiser sair.</string>
+    <string name="strContact">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=28&amp;search.boardtype=Q</string>
+    <string name="strEmailexisted1">A conta registrada com esse email existe.(</string>
+    <string name="strEmailexisted2">) Por favor, faça o login com sua conta original.</string>
+    <string name="strEmailexisted3">) Por favor insira outro email.</string>
+    <string name="strErrwithCode">Há um erro : </string>
+    <string name="strIndicarEmail">indicar_tuning@naver.com</string>
+    <string name="strJoinProcess">Processando a associação...</string>
+    <string name="strKakaoLoginStop">Parar o login do Kakao : </string>
+    <string name="strLoginProcess">Processando Entrar...</string>
+    <string name="strLoginedErr">O aplicativo não conseguiu carregar as informações do usuário corretamente. Por favor faça login novamente.</string>
+    <string name="strLogoutSuccess">Sair sucesso.</string>
+    <string name="strNoCar">Não há carros registrados ainda.</string>
+    <string name="strNoInternet">Seu dispositivo não está conectado à Internet. Por favor, conecte seu telefone à Internet.</string>
+    <string name="strPartnership">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=31&amp;search.boardtype=L</string>
+    <string name="strPermissionDenied">Você não pode acessar o aplicativo sem aceitar os direitos necessários.\nVocê pode conceder permissão em [Configurações]> [Permissão].</string>
+    <string name="strReSCancel">Cancelar</string>
+    <string name="strRequestEmailCancel">A autenticação de email existente foi cancelada porque o usuário solicitou um certificado de email diferente. Por favor, inscreva-se como um novo membro.</string>
+    <string name="strRequestEmailError">Ocorreu um erro durante a autenticação de email. Por favor, tente novamente. Lamentamos o inconveniente.</string>
+    <string name="strRequestEmailSent">Enviamos um e-mail de verificação para você com o e-mail que você inseriu. Por favor, verifique sua caixa de correio.</string>
+    <string name="strRequestEmailWait">A autenticação de email não foi concluída. Por favor, verifique sua caixa de correio.</string>
+    <string name="strRestart">Reiniciar</string>
+    <string name="strSaveChanges">Salvando alterações...</string>
+    <string name="strServerCheck">O servidor está sendo inspecionado.</string>
+    <string name="strShoppingMall">https://smartstore.naver.com/indiparts</string>
+    <string name="strShoppingWillOpen">O shopping abrirá em breve!</string>
+    <string name="strSignoutErr">Ocorreu um erro durante o processo de retirada de membros. Por favor, tente novamente.</string>
+    <string name="strSignoutSuccess">Retirada de adesão bem sucedida. Obrigado por usar.</string>
+    <string name="strTermsUrl">https://m.cafe.naver.com/ArticleRead.nhn?clubid=29539791&amp;articleid=20&amp;page=1&amp;boardtype=L</string>
+    <string name="strTooLongNickname">O apelido deve estar dentro de 20 caracteres em português, exceto para espaçamento.</string>
+    <string name="strTooShortNickname">O apelido deve ter pelo menos 4 caracteres em português, exceto para espaçamento.</string>
+    <string name="strVersionErr">A versão não está correta.</string>
+    <string name="strWannaChangeLang">Para alterar o idioma, você deve reiniciar o aplicativo.\nVocê quer reiniciar o aplicativo?</string>
+    <string name="strWhatPermissionDeny">Permissão negada\n</string>
+    <string name="strWritingPost">O dispositivo está enviando sua postagem. Por favor, espere......</string>
+    <string name="str_loadingtitle">Start of differentiated sensitivity\nfrom your vehicle</string>
+    <string name="strcannotCamera">A função da câmera não está disponível até que a memória externa seja suportada.\nVocê pode conceder permissão em [Configurações]> [Permissão].</string>
+    <string name="strgetUserInfoError">Falha ao recuperar informações do usuário : </string>
+    <string name="submit">Enviar</string>
+    <string name="suggest_subtitle">Pergunte Questions &amp; Problemas do relatório</string>
+    <string name="suggest_title">1:1 Contato</string>
+    <string name="terms_subtitle">Termos de serviço</string>
+    <string name="terms_title">Termos</string>
+    <string name="total">Total</string>
+    <string name="tuning2Hint">Por favor, insira o nome da marca ou do veículo.</string>
+    <string name="version_subtitle">Versão Atual : v.1.0.0</string>
+    <string name="version_title">Versão</string>
+    <string name="welcome_main_text_community">Publique sua história e interaja com outros usuários!</string>
+    <string name="welcome_main_text_tuning">Escolha o veículo que você quer afinar!</string>
+    <string name="welcome_main_text_unity">Aproveite o afinação 3D virtual de carros!</string>
+    <string name="welcome_sub_text_community">Você pode ver vários posts por tipo de carro.</string>
+    <string name="welcome_sub_text_tuning">Avisos permitem que você saiba as informações sobre as atualizações.</string>
+    <string name="welcome_sub_text_unity">Anexar peças do mercado real.</string>
+    <string name="welcome_tab_community">COMUNIDADE</string>
+    <string name="welcome_tab_tuning">AFINAÇÃO VIRTUAL</string>
+    <string name="write_content_hint">Por favor, escreva sua história.</string>
+</resources>

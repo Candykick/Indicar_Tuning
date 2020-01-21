@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    
+                 
+                           
+                                                                       
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/activity_login_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:padding="@dimen/padding_large"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager_welcome"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:overScrollMode="never"
+                android:background="@null"/>
+
+            <LinearLayout
+                android:layout_margin="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                style="?android:attr/buttonBarStyle">
+
+
+                <Button
+                    android:layout_margin="@dimen/padding_small"
+                    android:layout_height="@dimen/padding_small"
+                    android:layout_width="@dimen/padding_small"
+                    android:tag="binding_1"                                               
+                    android:background="@drawable/line_circle_unselected"
+                    style="?android:attr/buttonBarButtonStyle"/>
+
+                <Button
+                    android:layout_margin="@dimen/padding_small"
+                    android:layout_height="@dimen/padding_small"
+                    android:layout_width="@dimen/padding_small"
+                    android:tag="binding_2"                                               
+                    android:background="@drawable/line_circle_unselected"
+                    style="?android:attr/buttonBarButtonStyle"/>
+
+                <Button
+                    android:layout_margin="@dimen/padding_small"
+                    android:layout_height="@dimen/padding_small"
+                    android:layout_width="@dimen/padding_small"
+                    android:tag="binding_3"                                               
+                    android:background="@drawable/line_circle_unselected"
+                    style="?android:attr/buttonBarButtonStyle"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLoginGoogle"
+                android:layout_margin="@dimen/padding_small"
+                android:padding="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:tag="binding_4"                          
+                android:background="@color/bgGoogle">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:layout_gravity="center"
+                    android:tag="binding_5"                          
+                    android:src="@drawable/login_google_logo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/login_with_google"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLoginFacebook"
+                android:layout_margin="@dimen/padding_small"
+                android:padding="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:tag="binding_6"                      
+                android:background="@color/bgFacebook">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:layout_gravity="center"
+                    android:tag="binding_7"                      
+                    android:src="@drawable/login_facebook_logo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/login_with_fb"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLoginKakao"
+                android:tag="binding_8"                  
+                android:layout_margin="@dimen/padding_small"
+                android:padding="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                                                                
+                android:background="@color/bgKakao">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:layout_gravity="center"
+                    android:tag="binding_9"                         
+                    android:src="@drawable/login_kakao_logo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/login_with_kakao"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/textKakao"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnLoginLine"
+                android:tag="binding_10"                  
+                android:layout_margin="@dimen/padding_small"
+                android:padding="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_height"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                                                               
+                android:background="@color/bgLine">
+
+                <ImageButton
+                    style="@style/largeImageButton"
+                    android:layout_gravity="center"
+                    android:tag="binding_11"                       
+                    android:src="@drawable/login_line_logo"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/login_with_line"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loadinglogin"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transDrawerMenuDark"
+            android:gravity="center"
+            android:focusable="true"
+            android:clickable="true">
+
+            <TextView
+                android:layout_marginTop="@dimen/padding_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@string/strLoginProcess"/>
+        </LinearLayout>
+    </RelativeLayout>
+         

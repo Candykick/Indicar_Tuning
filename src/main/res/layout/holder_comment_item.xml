@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.Comment"/>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/item_panel"
+        android:padding="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="horizontal">
+
+        <View
+            android:visibility="@{item.id != item.parentId}"
+            android:layout_width="@dimen/profile_image_size_small"
+            android:layout_height="match_parent" />
+
+        <Space
+            android:layout_width="@dimen/padding_small"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                imageCircle="@{item.userImageUrl}"
+                android:layout_width="@dimen/profile_image_size_ultra_small"
+                android:layout_height="@dimen/profile_image_size_ultra_small" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/black"
+                    android:text="@{item.userName}"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="@dimen/text_size_small"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_ultra_small"
+                    app:date="@{item.firstTime}"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/padding_ultra_small"
+                android:singleLine="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_medium"
+                android:text="@{item.text}"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

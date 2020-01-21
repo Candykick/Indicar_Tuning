@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="emailArray">
+        <item>naver.com</item>
+        <item>hanmail.net</item>
+        <item>gmail.com</item>
+        <item>nate.com</item>
+        <item>직접 입력</item>
+    </string-array>
+
+    <string-array name="comment_item_menu">
+        <item>댓글 수정</item>
+        <item>댓글 삭제</item>
+    </string-array>
+
+    <string-array name="board_detail_menu">
+        <item>게시글 수정</item>
+        <item>게시글 삭제</item>
+    </string-array>
+
+</resources>

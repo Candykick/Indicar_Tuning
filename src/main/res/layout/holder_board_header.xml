@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.community.boardDetail.BoardDetailActivity">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.Board"/>
+    </data>
+
+    <LinearLayout
+        android:padding="@dimen/padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                imageCircle="@{item.authorImageUrl}"
+                android:layout_gravity="center_vertical"
+                android:layout_width="@dimen/profile_image_size_small"
+                android:layout_height="@dimen/profile_image_size_small"/>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/black"
+                    android:text="@{item.authorName}"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    date="@{item.writeTime}"
+                    android:textSize="@dimen/text_size_small"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/btn_comment"
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                style="@style/mainImageButton"
+                android:src="@{@drawable/btn_board_comment}"/>
+
+            <ImageButton
+                android:id="@+id/btn_like"
+                android:layout_marginLeft="@dimen/padding_ultra_small"
+                android:layout_marginRight="@dimen/padding_ultra_small"
+                style="@style/mainImageButton"
+                android:src="@{item.likeBoard ? @drawable/btn_heart_on : @drawable/btn_heart_off}"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,59 @@
+
+                                                        
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/fragment_community_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" android:tag="binding_1">
+
+            <include
+                android:id="@+id/toolbar"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                layout="@layout/layout_toolbar"/>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tab_layout_community"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/community_tab_layout_size"
+                android:background="@drawable/line_top"
+                app:tabGravity="center"
+                app:tabMinWidth="90dp"
+                app:tabMaxWidth="90dp"
+                app:tabPaddingTop="6dp"
+                app:tabPaddingBottom="6dp"
+                app:tabIndicatorColor="@color/black"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_board"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_write"
+            android:layout_margin="@dimen/padding_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:clickable="true"
+            app:srcCompat="@drawable/btn_board_write"
+            app:backgroundTint="@color/darkGray"
+            app:layout_behavior="com.iindicar.indicar.utils.ScrollingFABBehavior"
+            app:layout_anchor="@id/view_pager_board"
+            app:layout_anchorGravity="bottom|right|end"
+            app:fabSize="normal"
+            app:borderWidth="0dp"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+         

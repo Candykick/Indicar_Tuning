@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="emailArray">
+        <item>yandex.com</item>
+        <item>gmail.com</item>
+        <item>hotmail.com</item>
+        <item>yahoo.com</item>
+        <item>Другой...</item>
+    </string-array>
+
+    <string-array name="comment_item_menu">
+        <item>Изменить этот комментарий</item>
+        <item>Удалить этот комментарий</item>
+    </string-array>
+
+    <string-array name="board_detail_menu">
+        <item>Изменить этот пост</item>
+        <item>Удалить этот пост</item>
+    </string-array>
+</resources>

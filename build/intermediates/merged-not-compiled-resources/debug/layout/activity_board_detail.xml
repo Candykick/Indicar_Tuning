@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                 
+                                                  
+                                                                    
+
+    
+                 
+                       
+                                                     
+           
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null" android:tag="layout/activity_board_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/tools" xmlns:tools="http://schemas.android.com/tools" tools:context=".view.community.boardDetail.BoardDetailActivity">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null" android:tag="binding_1">
+
+            <include
+                android:id="@+id/toolbar"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                layout="@layout/layout_text_toolbar"/>
+
+            <include
+                android:id="@+id/board_header"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                                   
+                layout="@layout/holder_board_header"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                               
+            layout="@layout/layout_board_detail"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+         

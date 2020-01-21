@@ -1,0 +1,4 @@
+#Wed Mar 06 18:18:35 KST 2019
+base.0=/Users/candykick/Documents/Incar Tuning\#3/Indicar Tuning(26-3)/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

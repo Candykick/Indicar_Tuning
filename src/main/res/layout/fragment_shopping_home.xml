@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="presenter"
+            type="com.iindicar.indicar.view.shopping.shoppingHome.ShoppingHomePresenter"/>
+    </data>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_layout_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        refreshing="@{presenter.isLoading}">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_image"
+                    android:layout_alignParentTop="true"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/divider_best"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_margin="@dimen/padding_small"
+                        android:layout_height="8dp"
+                        android:layout_width="8dp"
+                        android:alpha="@{presenter.currentImage == 0 ? (float)1.0 : (float)0.5}"
+                        android:background="@drawable/line_circle_index"/>
+
+                    <Button
+                        android:layout_margin="@dimen/padding_small"
+                        android:layout_height="8dp"
+                        android:layout_width="8dp"
+                        android:alpha="@{presenter.currentImage == 1 ? (float)1.0 : (float)0.5}"
+                        android:background="@drawable/line_circle_index"/>
+
+                    <Button
+                        android:layout_margin="@dimen/padding_small"
+                        android:layout_height="8dp"
+                        android:layout_width="8dp"
+                        android:alpha="@{presenter.currentImage == 2 ? (float)1.0 : (float)0.5}"
+                        android:background="@drawable/line_circle_index"/>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider_best"
+                    android:layout_below="@id/recycler_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"
+                    android:background="@color/divider"/>
+
+                <TextView
+                    android:id="@+id/tv_best"
+                    android:layout_below="@id/divider_best"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_main"
+                    android:paddingLeft="@dimen/padding_main"
+                    android:paddingRight="@dimen/padding_main"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/black"
+                    android:text="@string/shopping_title_best"/>
+
+                <TextView
+                    android:id="@+id/tv_best_more"
+                    android:layout_below="@id/divider_best"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_main"
+                    android:paddingLeft="@dimen/padding_main"
+                    android:paddingRight="@dimen/padding_main"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/shopping_title_more"/>
+
+                <com.iindicar.indicar.utils.EmptyRecyclerView
+                    android:id="@+id/recycler_best"
+                    android:padding="@dimen/padding_small"
+                    android:layout_below="@id/tv_best"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"/>
+
+                <View
+                    android:id="@+id/divider_new"
+                    android:layout_below="@id/recycler_best"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_small"
+                    android:background="@color/divider"/>
+
+                <TextView
+                    android:id="@+id/tv_new"
+                    android:layout_below="@id/divider_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_main"
+                    android:paddingLeft="@dimen/padding_main"
+                    android:paddingRight="@dimen/padding_main"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/black"
+                    android:text="@string/shopping_title_new"/>
+
+                <TextView
+                    android:id="@+id/tv_new_more"
+                    android:layout_below="@id/divider_new"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/padding_main"
+                    android:paddingLeft="@dimen/padding_main"
+                    android:paddingRight="@dimen/padding_main"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/shopping_title_more"/>
+
+                <com.iindicar.indicar.utils.EmptyRecyclerView
+                    android:id="@+id/recycler_new"
+                    android:padding="@dimen/padding_small"
+                    android:layout_below="@id/tv_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"/>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</layout>

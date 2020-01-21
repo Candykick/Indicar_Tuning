@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                 
+                           
+                                                                
+                 
+                       
+                                                    
+           
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:paddingBottom="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_menu"
+        android:orientation="vertical" android:tag="layout/fragment_menu_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:id="@+id/user_panel"
+            style="@style/Base.Widget.Design.AppBarLayout"
+            android:padding="@dimen/padding_main"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/profile_image_size_small"
+                android:layout_height="@dimen/profile_image_size_small"
+                android:tag="binding_1"           />
+
+            <TextView
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_main"
+                android:tag="binding_2"        />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_large" />
+
+        <TextView
+            android:paddingLeft="@dimen/padding_main"
+            android:paddingRight="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/divider"
+            android:textSize="@dimen/text_size_large"
+            android:text="@string/drawer_menu_title"/>
+
+        <TextView
+            android:paddingLeft="@dimen/padding_main"
+            android:paddingRight="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/divider"
+            android:textSize="@dimen/text_size_medium"
+            android:text="@string/drawer_menu_subtitle"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/padding_main" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_drawer_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:overScrollMode="never"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/divider"
+            android:text="@string/contact"/>
+
+        <TextView
+            android:paddingLeft="@dimen/padding_small"
+            android:paddingRight="@dimen/padding_small"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_ultra_small"
+            android:textColor="@color/divider"
+            android:text="@string/copyright"/>
+    </LinearLayout>
+         

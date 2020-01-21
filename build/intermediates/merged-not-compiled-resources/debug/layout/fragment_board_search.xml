@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                            
+                                                                                       
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:orientation="vertical" android:tag="layout/fragment_board_search_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:padding="@dimen/padding_small"
+            android:focusable="true"
+            android:background="@drawable/line_bottom"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_marginLeft="@dimen/padding_small"
+                android:layout_marginRight="@dimen/padding_small"
+                android:id="@+id/btn_filter"
+                style="@style/largeImageButton"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/btn_search_filter"/>
+
+            <EditText
+                android:padding="@dimen/padding_small"
+                android:id="@+id/et_search"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/search_box"
+                android:inputType="text"
+                android:singleLine="true"
+                android:imeOptions="actionSearch"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_medium"/>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:paddingLeft="@dimen/padding_small"
+                android:paddingRight="@dimen/padding_small"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="end|center_vertical"
+                android:textSize="@dimen/text_size_small"
+                android:textStyle="bold"
+                android:textColor="@color/gray"
+                android:text="@string/done"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null">
+
+            <android.support.v7.widget.RecyclerView
+                android:paddingLeft="@dimen/padding_ultra_small"
+                android:paddingRight="@dimen/padding_ultra_small"
+                android:id="@+id/recycler_board_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+
+            <LinearLayout
+                android:id="@+id/filter_panel"
+                android:padding="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line_bottom"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageButton
+                        style="@style/mediumImageButton"
+                        app:srcCompat="@drawable/icon_hint"/>
+
+                    <Space
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textSize="@dimen/text_size_medium"
+                        android:textColor="@color/black"
+                        android:text="@string/search_filter_board"/>
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/padding_medium" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_filter_all"
+                        android:tag="binding_1"  
+                                                                         
+                                                                            
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_small"
+                        android:text="@string/filter_all"/>
+
+                    <Space
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:tag="binding_2"      
+                                                                             
+                                                                            
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_small"
+                        android:text="@string/filter_daylife"/>
+
+                    <Space
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:tag="binding_3"     
+                                                                            
+                                                                            
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_small"
+                        android:text="@string/filter_market"/>
+
+                    <Space
+                        android:layout_width="@dimen/padding_small"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:tag="binding_4"  
+                                                                         
+                                                                            
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="@dimen/text_size_small"
+                        android:text="@string/filter_diy"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+         

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                       
+                                                                                                      
+           
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" android:tag="layout/holder_notify_setting_item_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:padding="@dimen/padding_main"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_medium"
+                android:tag="binding_1"     />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/padding_ultra_small" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_small"
+                android:tag="binding_2"        />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_marginRight="@dimen/padding_main"
+            android:id="@+id/btn_alarm"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:tag="binding_3"                                                          />
+
+    </LinearLayout>
+         

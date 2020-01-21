@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                               
+
+    
+                 
+                       
+                                                                                                          
+                 
+                           
+                                                        
+           
+
+    <LinearLayout
+        android:paddingLeft="@dimen/padding_large"
+        android:paddingRight="@dimen/padding_large"
+        android:paddingTop="@dimen/padding_main"
+        android:paddingBottom="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:tag="layout/holder_language_setting_item_0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_main"
+            android:textColor="@color/black"
+            android:tag="binding_1"              />
+
+        <ImageButton
+            style="@style/mainImageButton"
+            android:tag="binding_2"                               
+            app:srcCompat="@drawable/icon_selected"/>
+    </LinearLayout>
+         

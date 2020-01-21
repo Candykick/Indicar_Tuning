@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    
+                 
+                       
+                                                              
+           
+
+    <FrameLayout
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:tag="layout/holder_album_item_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:tag="binding_1"            />
+
+        <View
+            android:id="@+id/layout_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:tag="binding_2"              
+            android:background="@color/transImage"/>
+
+        <TextView
+            android:id="@+id/btn_index"
+            android:layout_width="@dimen/button_size_main"
+            android:layout_height="@dimen/button_size_main"
+            android:layout_margin="@dimen/padding_ultra_small"
+            android:layout_gravity="top|right"
+            android:gravity="center"
+            android:background="@drawable/line_circle_unselected"
+            android:textColor="@color/white"
+            android:tag="binding_3"     />
+    </FrameLayout>
+         

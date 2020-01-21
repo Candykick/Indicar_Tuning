@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="activity"
+            type="com.iindicar.indicar.view.account.profile.LanguageSettingActivity"/>
+    </data>
+
+    <LinearLayout
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_text_toolbar"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:overScrollMode="never"/>
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_margin="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/grayLine"
+            android:text="@string/done"
+            android:enabled="@{!activity.originalLanguage.equals(activity.language)}"
+            android:background="@drawable/button_enabled_selector"/>
+    </LinearLayout>
+</layout>

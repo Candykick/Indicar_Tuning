@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="emailArray">
+        <item>terra.com.br</item>
+        <item>uol.com.br</item>
+        <item>yahoo.com</item>
+        <item>gmail.com</item>
+        <item>De outros...</item>
+    </string-array>
+
+    <string-array name="comment_item_menu">
+        <item>Modifique este comentário</item>
+        <item>Excluir este comentário</item>
+    </string-array>
+
+    <string-array name="board_detail_menu">
+        <item>Modifique esta postagem</item>
+        <item>Excluir esta postagem</item>
+    </string-array>
+</resources>

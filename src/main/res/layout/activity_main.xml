@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null">
+
+        <LinearLayout
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.iindicar.indicar.utils.SwipeViewPager
+                android:id="@+id/view_pager_main"
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="8dp">
+
+                <android.support.design.widget.TabLayout
+                    style="@style/Widget.Design.BottomNavigationView"
+                    android:id="@+id/tab_layout_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:padding="0dp"
+                    android:background="@null"
+                    app:tabGravity="fill"
+                    app:tabMode="fixed"
+                    app:tabIndicatorHeight="0dp"/>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <!-- Drawer Menu -->
+        <FrameLayout
+            android:id="@+id/drawer_menu"
+            android:background="@null"
+            android:layout_height="match_parent"
+            android:layout_width="@dimen/drawer_menu_width"
+            android:layout_gravity="start"/>
+
+    </android.support.v4.widget.DrawerLayout>
+</layout>

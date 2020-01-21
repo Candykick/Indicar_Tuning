@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                       
+                                                                    
+
+    
+                 
+                           
+                                                                                        
+                 
+                       
+                                                     
+           
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" android:tag="layout/layout_board_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" tools:context=".view.community.boardDetail.BoardDetailActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical" android:tag="binding_1">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/padding_ultra_large"
+                android:padding="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/smallImageButton"
+                    app:srcCompat="@drawable/board_like_count"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/like"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_size_small"
+                    android:tag="binding_2"                                    />
+
+                <Space
+                    android:layout_width="@dimen/padding_main"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    style="@style/smallImageButton"
+                    app:srcCompat="@drawable/board_comment_count"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="@string/comment"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/text_size_small"
+                    android:tag="binding_3"                                       />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/btn_menu"
+                    android:tag="binding_4"                   
+                    style="@style/mainImageButton"
+                    app:srcCompat="@drawable/btn_board_menu"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+
+            <com.iindicar.indicar.utils.EmptyRecyclerView
+                android:id="@+id/recycler_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"/>
+
+            <LinearLayout
+                android:id="@+id/empty_view"
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:paddingTop="@dimen/padding_ultra_large"
+                android:paddingBottom="@dimen/padding_ultra_large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageButton
+                    style="@style/mainImageButton"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/icon_notice"/>
+
+                <TextView
+                    android:padding="@dimen/padding_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    android:text="@string/comment_empty"
+                    android:textColor="@color/gray"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/comment_more"
+                android:tag="binding_5"                                 
+                android:padding="@dimen/padding_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/black"
+                    android:text="@string/comment_more"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/black"
+                    android:tag="binding_6"                                           />
+
+                <ImageButton
+                    android:paddingLeft="@dimen/padding_ultra_small"
+                    style="@style/smallImageButton"
+                    app:srcCompat="@drawable/btn_drawer_next"/>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/comment_box"
+                layout="@layout/holder_comment_box"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+         

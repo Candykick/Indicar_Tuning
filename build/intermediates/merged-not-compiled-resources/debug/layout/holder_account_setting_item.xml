@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                       
+                                                                                                        
+           
+
+    <LinearLayout
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small"
+        android:paddingLeft="@dimen/padding_main"
+        android:paddingRight="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:tag="layout/holder_account_setting_item_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_main"
+            android:tag="binding_1"      />
+
+    </LinearLayout>
+         

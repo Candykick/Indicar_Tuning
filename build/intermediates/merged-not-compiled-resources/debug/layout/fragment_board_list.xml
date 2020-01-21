@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    
+                 
+                            
+                                                                                     
+           
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_layout_board"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+                                            android:tag="layout/fragment_board_list_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.iindicar.indicar.utils.EmptyRecyclerView
+                android:paddingLeft="@dimen/padding_ultra_small"
+                android:paddingRight="@dimen/padding_ultra_small"
+                android:id="@+id/recycler_board_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"/>
+
+            <TextView
+                android:id="@+id/empty"
+                android:background="@null"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/text_size_main"
+                android:text="@string/board_list_empty"/>
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+         

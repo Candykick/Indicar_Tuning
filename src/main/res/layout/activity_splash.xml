@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/loading8">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"/>
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@drawable/loadingback1"/>
+
+    <TextView
+        android:paddingLeft="@dimen/padding_main"
+        android:paddingRight="@dimen/padding_main"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/black"
+        android:padding="@dimen/padding_main"
+        android:text="@string/str_loadingtitle"/>
+
+    <TextView
+        android:paddingLeft="@dimen/padding_main"
+        android:paddingRight="@dimen/padding_main"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_medium"
+        android:textColor="@color/black"
+        android:padding="@dimen/padding_main"
+        android:text="Please Wait"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:paddingLeft="@dimen/padding_main"
+        android:paddingRight="@dimen/padding_main"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/black"
+        android:padding="@dimen/padding_ultra_large"
+        android:text="@string/copyright"/>
+
+</LinearLayout>

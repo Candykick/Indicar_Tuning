@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.data.local.GalleryVO"/>
+    </data>
+
+    <FrameLayout
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:paddingTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            imageCenterCrop="@{item.mediaPath}"/>
+
+        <View
+            android:id="@+id/layout_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="@{item.selected}"
+            android:background="@color/transImage"/>
+
+        <TextView
+            android:id="@+id/btn_index"
+            android:layout_width="@dimen/button_size_main"
+            android:layout_height="@dimen/button_size_main"
+            android:layout_margin="@dimen/padding_ultra_small"
+            android:layout_gravity="top|right"
+            android:gravity="center"
+            android:background="@drawable/line_circle_unselected"
+            android:textColor="@color/white"
+            android:text="@{item.index}"/>
+    </FrameLayout>
+</layout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/layout_toolbar"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+
+            <FrameLayout
+                android:background="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/tuning2logoback"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/btnTLeft"
+                        android:layout_width="24dp"
+                        android:layout_height="64dp"
+                        android:scaleType="centerInside"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:src="@drawable/btn_left"/>
+
+                    <ImageView
+                        android:id="@+id/tab_logo"
+                        android:src="@drawable/tuninglogo0"
+                        android:layout_gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="55dp" />
+
+                    <ImageButton
+                        android:id="@+id/btnTRight"
+                        android:layout_width="24dp"
+                        android:layout_height="64dp"
+                        android:scaleType="centerInside"
+                        android:adjustViewBounds="true"
+                        android:background="@null"
+                        android:src="@drawable/btn_left"
+                        android:scaleX="-1"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:paddingLeft="@dimen/padding_main"
+                android:paddingRight="@dimen/padding_main"
+                android:paddingTop="@dimen/padding_small"
+                android:paddingBottom="@dimen/padding_small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/searchBoxTransParent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:padding="@dimen/padding_small"
+                    android:id="@+id/et_search"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="@string/search_box"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:imeOptions="actionSearch"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"/>
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="end|center_vertical"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray"
+                    android:text="@string/done"/>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/tuning2carback"
+            android:orientation="vertical">
+
+            <com.iindicar.indicar.utils.EmptyRecyclerView
+                android:id="@+id/recycler_car_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:overScrollMode="never"/>
+
+            <TextView
+                android:id="@+id/empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/black"
+                android:text="@string/strNoCar"/>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

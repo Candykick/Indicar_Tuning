@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+                 
+                       
+                                                       
+           
+
+    <LinearLayout
+        android:id="@+id/item_panel"
+        android:padding="@dimen/padding_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:orientation="horizontal" android:tag="layout/holder_comment_item_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <View
+            android:tag="binding_1"                         
+            android:layout_width="@dimen/profile_image_size_small"
+            android:layout_height="match_parent" />
+
+        <Space
+            android:layout_width="@dimen/padding_small"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:tag="binding_2"           
+                android:layout_width="@dimen/profile_image_size_ultra_small"
+                android:layout_height="@dimen/profile_image_size_ultra_small" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/black"
+                    android:tag="binding_3"        />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="@dimen/text_size_small"
+                    android:layout_gravity="center_vertical"
+                    android:background="@android:color/darker_gray"
+                    android:layout_marginLeft="@dimen/padding_small"
+                    android:layout_marginRight="@dimen/padding_small"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_ultra_small"
+                    android:tag="binding_4"     />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/padding_ultra_small"
+                android:singleLine="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_medium"
+                android:tag="binding_5"    />
+        </LinearLayout>
+    </LinearLayout>
+         

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" android:tag="layout/fragment_cart_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/padding_ultra_small"
+            android:textSize="@dimen/text_size_main"
+            android:text="@string/coming_soon"/>
+
+    </LinearLayout>
+         

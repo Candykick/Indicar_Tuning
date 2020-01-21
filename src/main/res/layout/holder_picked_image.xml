@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="com.iindicar.indicar.model.BoardFile"/>
+    </data>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="@dimen/padding_ultra_small"
+            android:layout_gravity="center"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            imageCenterCrop="@{item.filePath}"/>
+
+        <ImageView
+            android:id="@+id/btn_remove"
+            style="@style/mediumImageButton"
+            android:layout_gravity="right|top"
+            android:padding="0dp"
+            android:background="@drawable/line_circle_remove"
+            app:srcCompat="@drawable/btn_remove"/>
+
+    </FrameLayout>
+</layout>

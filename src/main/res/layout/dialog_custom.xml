@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_dialog_frame"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_margin="@dimen/padding_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_submit"
+                android:padding="@dimen/padding_small"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/line_dialog_frame">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_size_medium"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/icon_agree"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/padding_ultra_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_ultra_small"
+                    android:textColor="@color/gray"
+                    android:text="@string/dialog_agree"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_cancel"
+                android:layout_marginLeft="-4dp"
+                android:padding="@dimen/padding_small"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/line_dialog_frame">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_size_medium"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/icon_cancel"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/padding_ultra_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_ultra_small"
+                    android:textColor="@color/gray"
+                    android:text="@string/dialog_cancel"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

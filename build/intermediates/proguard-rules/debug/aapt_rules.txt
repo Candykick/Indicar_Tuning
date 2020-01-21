@@ -1,0 +1,280 @@
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:154
+-keep class android.support.v4.content.FileProvider { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:339
+-keep class com.facebook.CurrentAccessTokenExpirationBroadcastReceiver { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:100
+-keep class com.facebook.CustomTabActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:234
+-keep class com.facebook.CustomTabMainActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:95
+-keep class com.facebook.FacebookActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:334
+-keep class com.facebook.internal.FacebookInitProvider { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:256
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:247
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:286
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:266
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:280
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:261
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:276
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:291
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:305
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:239
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:313
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:229
+-keep class com.gun0912.tedpermission.TedPermissionActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:120
+-keep class com.iindicar.indicar.UnityPlayerActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:152
+-keep class com.iindicar.indicar.service.BoardUploadService { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:49
+-keep class com.iindicar.indicar.utils.App { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:139
+-keep class com.iindicar.indicar.view.account.profile.AccountSettingActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:140
+-keep class com.iindicar.indicar.view.account.profile.LanguageSettingActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:138
+-keep class com.iindicar.indicar.view.account.profile.NotifySettingActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:136
+-keep class com.iindicar.indicar.view.album.AlbumActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:133
+-keep class com.iindicar.indicar.view.community.boardDetail.BoardDetailActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:135
+-keep class com.iindicar.indicar.view.community.boardWrite.BoardWriteActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:134
+-keep class com.iindicar.indicar.view.community.comment.CommentActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:164
+-keep class com.iindicar.indicar.view.main.LanguageActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:116
+-keep class com.iindicar.indicar.view.main.MainActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:112
+-keep class com.iindicar.indicar.view.main.join.JoinActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:80
+-keep class com.iindicar.indicar.view.main.login.KakaoSignupActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:77
+-keep class com.iindicar.indicar.view.main.login.LoginActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:70
+-keep class com.iindicar.indicar.view.main.splash.SplashActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:113
+-keep class com.iindicar.indicar.view.main.tutorial.TutorialActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:118
+-keep class com.iindicar.indicar.view.notice.noticeDetail.NoticeDetailActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:117
+-keep class com.iindicar.indicar.view.notice.noticeList.NoticeListActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:137
+-keep class com.iindicar.indicar.view.shopping.shoppingDetail.ShoppingDetailActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:119
+-keep class com.iindicar.indicar.view.tuning.TuningActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:83
+-keep class com.kakao.auth.authorization.authcode.KakaoWebViewActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:190
+-keep class com.linecorp.linesdk.auth.internal.LineAuthenticationActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:196
+-keep class com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:165
+-keep class com.unity3d.ads.adunit.AdUnitActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:180
+-keep class com.unity3d.ads.adunit.AdUnitSoftwareActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:170
+-keep class com.unity3d.ads.adunit.AdUnitTransparentActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:175
+-keep class com.unity3d.ads.adunit.AdUnitTransparentSoftwareActivity { <init>(...); }
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/src/main/res/layout/item_listview.xml:2
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_language.xml:12
+-keep class android.support.constraint.ConstraintLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_bottom_navigation_item.xml:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_layout_snackbar_include.xml:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_eng.xml:9
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping.xml:9
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml:10
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_community.xml:9
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_account.xml:10
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tuning.xml:10
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notice_detail.xml:16
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_join.xml:19
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_write.xml:10
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_detail.xml:19
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_write.xml:16
+-keep class android.support.design.widget.CollapsingToolbarLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_eng.xml:4
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping.xml:4
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml:5
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_community.xml:4
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_account.xml:5
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_bottom_sheet_dialog.xml:26
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tuning.xml:5
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notice_detail.xml:11
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_join.xml:15
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_write.xml:5
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_detail.xml:14
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_community.xml:43
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/d034a7f6756e513fe35a345591010b58/res/layout/design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping.xml:22
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_community.xml:21
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_account.xml:23
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml:31
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping.xml:34
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_community.xml:36
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_account.xml:34
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tutorial.xml:22
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml:21
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml:5
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_board_detail.xml:16
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_write_filter.xml:14
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_home.xml:19
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml:15
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_list.xml:19
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_home.xml:11
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_list.xml:11
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_board_list.xml:10
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/4d3d126783f7d430333fcbfc666597be/res/layout/com_facebook_smart_device_dialog_fragment.xml:47
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/4d3d126783f7d430333fcbfc666597be/res/layout/com_facebook_device_auth_dialog_fragment.xml:45
+-keep class android.support.v7.widget.AppCompatImageView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/holder_shopping_item.xml:17
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/holder_shopping_best_item.xml:18
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/holder_board_item.xml:17
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/4d3d126783f7d430333fcbfc666597be/res/layout/com_facebook_smart_device_dialog_fragment.xml:22
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/4d3d126783f7d430333fcbfc666597be/res/layout/com_facebook_device_auth_dialog_fragment.xml:22
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml:24
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_board_detail.xml:28
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_write_filter.xml:30
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_write_content.xml:40
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_home.xml:29
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_product_list.xml:25
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_menu.xml:76
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml:56
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_board_search.xml:69
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notify_setting.xml:13
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notice_detail.xml:64
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notice.xml:14
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_language_setting.xml:20
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_comment.xml:20
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_album.xml:37
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_account_setting.xml:75
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_board_write.xml:32
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/b0234ce5d829a5effb5aa3c986c1db9d/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at /Users/candykick/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/03f237e5c28767f464ced62b7b8802dd/res/layout/browser_actions_context_menu_page.xml:5
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_board_detail.xml:103
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_write_filter.xml:49
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_shopping_home.xml:98
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_board_list.xml:21
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_tuning.xml:118
+-keep class com.iindicar.indicar.utils.EmptyRecyclerView { <init>(...); }
+
+# Referenced at /Users/candykick/Documents/Incar Tuning#3/Indicar Tuning(26-3)/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml:17
+-keep class com.iindicar.indicar.utils.SwipeViewPager { <init>(...); }
+

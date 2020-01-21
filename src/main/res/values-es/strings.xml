@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Indicar Tuning</string>
+    <string name="indiparts">Indiparts</string>
+    <string name="share">Compartir</string>
+
+    <!-- 튜토리얼 -->
+    <string name="skip">OMITIR</string>
+    <string name="start">COMIENZO</string>
+    <string name="welcome_tab_tuning">SINTONIA VIRTUAL</string>
+    <string name="welcome_tab_community">COMUNIDAD</string>
+
+    <string name="welcome_main_text_tuning">Elija el vehículo que desea sintonizar!</string>
+    <string name="welcome_main_text_unity">Disfrute de Virtual 3D Coche Sintonización!</string>
+    <string name="welcome_main_text_community">¡Publica tu historia e interactúa con otros usuarios!</string>
+
+    <string name="welcome_sub_text_tuning">Los avisos le informan de la información sobre las actualizaciones.</string>
+    <string name="welcome_sub_text_unity">Adjuntar partes del mercado real.</string>
+    <string name="welcome_sub_text_community">Puedes ver varias publicaciones por tipo de coche.</string>
+
+    <!-- 공지 -->
+    <string name="notice">Aviso</string>
+
+    <!-- Drawer 메뉴 -->
+    <string name="drawer_menu_title">¿Como puedo ayudarte?</string>
+    <string name="drawer_menu_subtitle">Seleccione el menú que desea utilizar.</string>
+    <string name="how_to_use_title">Cómo utilizar</string>
+    <string name="how_to_use_subtitle">Vea cómo usar la aplicación</string>
+    <string name="partnership_title">Asociación</string>
+    <string name="partnership_subtitle">Solicitar una asociación con Indicar Tuning</string>
+    <string name="suggest_title">1: 1 Contacto</string>
+    <string name="suggest_subtitle">Hacer preguntas &amp; Informar problemas</string>
+    <string name="terms_title">Condiciones</string>
+    <string name="terms_subtitle">Términos de servicio</string>
+    <string name="version_title">Versión</string>
+    <string name="version_subtitle">Versión Actual : v.1.0.0</string>
+    <string name="contact">Indicar Tuning, indicar_tuning@naver.com</string>
+    <string name="copyright">Copyright 2017. Indicar Tuning All Rights Reserved.</string>
+
+    <!-- 환경 설정 -->
+    <string name="notification_setting">Configuración de las Notificaciones</string>
+    <string name="event_alarm_title">Evento</string>
+    <string name="event_alarm_subtitle">Eventos &amp; Notificación Promoción</string>
+    <string name="notice_alarm_title">Aviso</string>
+    <string name="notice_alarm_subtitle">Vehículo &amp; Notificación de Actualización de Piezas</string>
+    <string name="language_setting">Configuraciones de Idioma</string>
+    <string name="manage_account">Administra mi cuenta</string>
+    <string name="korean">Korean</string>
+    <string name="english">English</string>
+    <string name="default_setting">Configuración por Defecto</string>
+    <string name="account_setting">Configuraciones de la Cuenta</string>
+
+    <string name="go_to_shopping">Ir al Centro Comercial</string>
+    <string name="go_to_facebook">Ir a Facebook</string>
+    <string name="go_to_youtube">Ir a YouTube</string>
+    <string name="recommend_to_friends">Recomendar a mis amigos</string>
+
+    <!-- 게시물 -->
+    <string name="comment">Comentario</string>
+    <string name="like">Gustar</string>
+
+    <!-- 게시물 필터 -->
+    <string name="all">todos</string>
+    <string name="daylife">vida diaria</string>
+    <string name="market">venta</string>
+    <string name="diy">bricolaje</string>
+
+    <string name="filter_all">TODOS</string>
+    <string name="filter_daylife">VIDA DIARIA</string>
+    <string name="filter_market">VENTA</string>
+    <string name="filter_diy">BRICOLAJE</string>
+    <string name="ko">ko</string>
+    <string name="en">en</string>
+    <string name="ru">ru</string>
+
+    <string name="board_list_empty">Lista Vacía</string>
+
+    <!-- 게시물 검색 -->
+    <string name="search_box">Por favor, introduzca un término de búsqueda.</string>
+    <string name="search_filter_board">Seleccione el tipo de publicación.</string>
+    <string name="search_filter_language">Seleccione el país / idioma.</string>
+
+    <!-- 글 작성-->
+    <string name="board_filter_hint">¿Sobre qué tipo de publicación escribes?</string>
+    <string name="image_filter_hint">Por favor agregue imágenes.</string>
+    <string name="image_empty">No hay imágenes seleccionadas.</string>
+    <string name="write_content_hint">Por favor escribe tu historia.</string>
+    <string name="picture_list_empty">No hay imágenes seleccionadas.</string>
+    <string name="board_write_hint">Por favor, introduzca su historia.</string>
+    <string name="next">Próximo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="submit">Enviar</string>
+    <string name="board_upload_success">Tu mensaje subido correctamente.</string>
+    <string name="board_update_success">Tu publicación editada con éxito.</string>
+    <string name="board_upload_fail">No se pudo subir tu publicación. Inténtalo de nuevo.</string>
+    <string name="board_update_fail">Error editing your publication. Inténtalo de nuevo.</string>
+    <string name="board_delete_done">Tu publicación ha sido eliminada con éxito.</string>
+
+    <!-- 앨범 선택 -->
+    <string name="total">Total</string>
+
+    <!-- 댓글 -->
+    <string name="comment_empty">¡Se el primero en publicar un comentario!</string>
+    <string name="comment_box">Ingrese su comentario.</string>
+    <string name="comment_more">Más comentarios +</string>
+    <string name="done">Completar</string>
+    <string name="comment_deleted">Tu comentario eliminado correctamente.</string>
+
+    <!-- 내 계정 -->
+    <string name="account_tab_like">Gustar</string>
+    <string name="account_tab_my_board">Mi publicacion</string>
+    <string name="account_tab_cart">Cesta</string>
+    <string name="account_tab_more">Más</string>
+    <string name="coming_soon">Próximamente.\nPuedes verlo en una futura actualización!</string>
+
+    <!-- 쇼핑 -->
+    <string name="shopping_title_best">Mejor Vendido</string>
+    <string name="shopping_title_new">Nuevos Productos</string>
+    <string name="shopping_title_more">Más</string>
+
+    <string name="shopping_tab_home">CASA</string>
+    <string name="shopping_tab_best">MEJOR</string>
+    <string name="shopping_tab_new">NUEVO</string>
+    <string name="shopping_tab_kona">KONA</string>
+    <string name="shopping_tab_sonata">SONATA</string>
+    <string name="shopping_tab_avante">AVANTE</string>
+    <string name="shopping_tab_qm6">KOLEOS</string>
+
+    <!-- 계정 관련 -->
+    <string name="sign_up">REGÍSTRATE</string>
+    <string name="email">Email</string>
+    <string name="sign_out">DESCONECTAR</string>
+    <string name="remove_account">RETIRA MI CUENTA</string>
+    <string name="editNameTitle">Nombre (Apodo)</string>
+    <string name="editNameHint">Por favor ingrese un nombre o apodo.</string>
+    <string name="send_auth_email">Enviar correo de verificación</string>
+    <string name="resend_auth_email">Reenviar correo de verificación</string>
+    <string name="login_with_google">Inicia sesión con Google</string>
+    <string name="login_with_fb">Iniciar sesión con Facebook</string>
+    <string name="login_with_kakao">Iniciar sesión con Kakao</string>
+    <string name="login_with_line">Inicia sesión con Line</string>
+    <string name="strTooLongNickname">El apodo debe tener un máximo de 20 caracteres, excepto el espaciado en español.</string>
+    <string name="strTooShortNickname">El apodo debe tener al menos 4 caracteres, excepto el espacio en español.</string>
+    <string name="strLogoutSuccess">Cerrar sesión con éxito.</string>
+    <string name="str_loadingtitle">Start of differentiated sensitivity\nfrom your vehicle</string>
+
+    <!-- 다이얼로그 -->
+    <string name="dialog_agree">ACUERDO</string>
+    <string name="dialog_cancel">CANCELAR</string>
+    <!-- 유니티 다운로드 -->
+    <string name="dialog_unity1">※ Se descargará el modelado de coches en 3D. Se incurrirá en una llamada de datos.</string>
+    <string name="dialog_unity1_sub">Le recomendamos que proceda en su entorno WIFI. Una vez que haya descargado el modelado, puede usarlo sin cargar. (Excepto si hay una actualización.)</string>
+    <string name="dialog_unity2">※ Se requiere permiso de CÁMARA y ALMACENAMIENTO EXTERNO para ejecutar el programa</string>
+    <string name="dialog_unity2_sub">No puede utilizar la aplicación sin aceptar los derechos requeridos.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="strcannotCamera">La función de la cámara no está disponible hasta que se admita la memoria externa.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="dialog_unity_sub">Todas las imágenes y contenidos no están disponibles para uso comercial. Todos los derechos reservados para nuestra empresa. Si quieres usarlo, por favor contáctanos. Se permite el uso personal. Gracias.</string>
+    <!-- 회원탈퇴 -->
+    <string name="dialog_delete_account">No puedes recuperar tu cuenta una vez que la elimines.</string>
+    <string name="dialog_delete_account_sub">¿Estás seguro de eliminar tu cuenta?</string>
+    <!-- 글 작성 취소 -->
+    <!-- 게시글 삭제-->
+    <string name="dialog_delete_board">No puedes recuperar la publicación una vez que la elimines.</string>
+    <string name="dialog_delete_board_sub">¿Estás seguro de eliminar la publicación?</string>
+
+    <string name="facebook_app_id">1228514043878949</string>
+    <string name="kakao_app_key">be2b15c91901a83730e1cc907a1ab965</string>
+    <string name="line_channel_id">1586805168</string>
+
+    <string name="strVersionErr">La versión no es correcta.</string>
+    <string name="strNoInternet">Su dispositivo no está conectado a Internet. Por favor, conecte su teléfono a Internet.</string>
+    <string name="strLoginedErr">La aplicación no pudo cargar la información del usuario correctamente. Por favor inicie sesión de nuevo.</string>
+    <string name="strNoCar">No hay coches registrados todavía.</string>
+    <string name="strErrwithCode">Hay un error : </string>
+    <string name="strServerCheck">El servidor está siendo inspeccionado.</string>
+    <string name="strBackpressed">Presione el botón Atrás una vez más si desea salir.</string>
+    <string name="strgetUserInfoError">Error al recuperar la información del usuario : </string>
+    <string name="strPermissionDenied">No puede acceder a la aplicación sin aceptar los derechos requeridos.\nPuede otorgar permiso en [Configuración]> [Permiso].</string>
+    <string name="strWhatPermissionDeny">Permiso denegado\n</string>
+    <string name="makingList">Generando lista ...</string>
+    <string name="tuning2Hint">Por favor, introduzca la marca o el nombre del vehículo.</string>
+    <string name="strAddUserAlarm1">Hola, </string>
+    <string name="strAddUserAlarm2">!</string>
+    <string name="strSaveChanges">Guardando Cambios...</string>
+    <string name="strJoinProcess">Procesando membresía...</string>
+    <string name="strLoginProcess">Procesando Login...</string>
+    <string name="strWritingPost">El dispositivo está subiendo tu publicación. Por favor espera......</string>
+    <string name="strWannaChangeLang">Para cambiar el idioma, debes reiniciar la aplicación.\n¿Quieres reiniciar la aplicación?</string>
+    <string name="strRestart">Reiniciar</string>
+    <string name="strReSCancel">Cancelar</string>
+    <string name="strShoppingWillOpen">¡El centro comercial abrirá pronto!</string>
+
+    <string name="strKakaoLoginStop">Detener Kakao Login:</string>
+    <string name="strAddUserFail">Ya existe una cuenta con ese correo electrónico. Por favor inicie sesión con su cuenta original.</string>
+    <string name="strRequestEmailSent">Le hemos enviado un correo electrónico de verificación con el correo electrónico que ingresó. Por favor, revise su correo.</string>
+    <string name="strRequestEmailWait">La autenticación de correo electrónico no se ha completado. Por favor, revise su correo.</string>
+    <string name="strRequestEmailCancel">La autenticación de correo electrónico existente se canceló porque el usuario solicitó un certificado de correo electrónico diferente. Por favor regístrese como nuevo miembro.</string>
+    <string name="strRequestEmailError">Se ha producido un error durante la autenticación del correo electrónico. Inténtalo de nuevo. Lamentamos los inconvenientes.</string>
+    <string name="strEmailexisted1">La cuenta registrada con ese correo electrónico existe.(</string>
+    <string name="strEmailexisted2">) Por favor inicie sesión con su cuenta original.</string>
+    <string name="strEmailexisted3">) Por favor ingrese otro correo electrónico.</string>
+    <string name="strSignoutErr">Se produjo un error durante el proceso de retiro del miembro. Inténtalo de nuevo.</string>
+    <string name="strSignoutSuccess">Retirada de membresía exitosa. Gracias por usar.</string>
+    <string name="strAddUserErr">Se produjo un error durante el proceso de registro de miembros. Inténtalo de nuevo.</string>
+
+    <string name="facebookGraphApi">"https://graph.facebook.com/"</string>
+    <string name="strTermsUrl">https://m.cafe.naver.com/ArticleRead.nhn?clubid=29539791&amp;articleid=20&amp;page=1&amp;boardtype=L</string>
+    <string name="strPartnership">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=31&amp;search.boardtype=L</string>
+    <string name="strContact">https://m.cafe.naver.com/ArticleList.nhn?search.clubid=29539791&amp;search.menuid=28&amp;search.boardtype=Q</string>
+    <string name="strIndicarEmail">indicar_tuning@naver.com</string>
+    <string name="strShoppingMall">https://smartstore.naver.com/indiparts</string>
+    <string name="bannerShopping1">http://13.125.173.118:9000/upload/community/1544171979987.png</string>
+    <string name="bannerShopping2">http://13.125.173.118:9000/upload/community/1544172097463.png</string>
+    <string name="bannerShopping3">http://13.125.173.118:9000/upload/community/1544172134478.PNG</string>
+
+</resources>

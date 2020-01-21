@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">@android:color/black</item>
+</style>
+<style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+<style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:configChanges">locale</item>
+    </style>
+
+    <!-- dialog theme. -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:configChanges">locale</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Image 스타일 -->
+    <style name="baseImageStyle" parent="@android:style/Widget.ImageButton">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!-- Image Button 스타일 -->
+    <style name="mainImageButton" parent="@style/baseImageStyle">
+        <item name="android:layout_height">@dimen/button_size_main</item>
+        <item name="android:layout_width">@dimen/button_size_main</item>
+    </style>
+    <style name="smallImageButton" parent="@style/baseImageStyle">
+        <item name="android:layout_height">@dimen/button_size_small</item>
+        <item name="android:layout_width">@dimen/button_size_small</item>
+    </style>
+    <style name="mediumImageButton" parent="@style/baseImageStyle">
+        <item name="android:layout_height">@dimen/button_size_medium</item>
+        <item name="android:layout_width">@dimen/button_size_medium</item>
+    </style>
+    <style name="largeImageButton" parent="@style/baseImageStyle">
+        <item name="android:layout_height">@dimen/button_size_large</item>
+        <item name="android:layout_width">@dimen/button_size_large</item>
+    </style>
+    <style name="ultraLargeImageButton" parent="@style/baseImageStyle">
+        <item name="android:layout_height">@dimen/button_size_ultra_large</item>
+        <item name="android:layout_width">@dimen/button_size_ultra_large</item>
+    </style>
+</resources>
